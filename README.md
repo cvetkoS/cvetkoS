@@ -1,5 +1,3 @@
-![Banner](https://raw.githubusercontent.com/cvetkos/cvetkos/main/banner.png)
-
 # Hi, I'm Cvetko Stević! 👋
 
 Welcome to my GitHub! I'm a **Full-Stack Engineer** with 8+ years of experience, passionate about building robust software systems—from frontend interfaces to backend APIs, test automation, and mobile apps.
