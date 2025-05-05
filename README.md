@@ -1,16 +1,57 @@
-## Hi there 👋
+![Banner](https://raw.githubusercontent.com/cvetkos/cvetkos/main/banner.png)
 
-<!--
-**cvetkoS/cvetkoS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hi, I'm Cvetko Stević! 👋
 
-Here are some ideas to get you started:
+Welcome to my GitHub! I'm a **Full-Stack Engineer** with 8+ years of experience, passionate about building robust software systems—from frontend interfaces to backend APIs, test automation, and mobile apps.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Tech Stack & Skills
+
+### 🌐 Frontend
+
+- ⚛️ React, React Native
+- 🔁 Redux / Redux Toolkit
+- 🧑‍🎨 TypeScript, JavaScript, HTML, CSS
+
+### 🔧 Backend
+
+- 🧱 Node.js, NestJS, Express
+- 🛠️ Laravel, FastAPI
+- 🔌 RESTful & GraphQL APIs
+- 🧩 API-first Design & Microservices
+
+### ✅ Automation & QA
+
+- 🧪 Playwright, Jest, Mocha
+- 🧷 Postman, cURL
+- 🖼️ Snapshot & Visual Regression Testing
+
+### ☁️ DevOps & Cloud
+
+- 🐳 Docker, Kubernetes
+- 🚀 GitHub Actions, Jenkins, Docker Hub
+- ☁️ AWS (RDS, EC2, Secrets Manager)
+- 🌐 Vercel, Supabase, Realm
+
+### 🧠 Methodologies
+
+- ♻️ CI/CD pipelines
+- 🔄 Agile / Scrum
+- ✅ Test-Driven Development (TDD)
+
+---
+
+## 📚 Currently Learning & Exploring
+
+- Advanced AWS Services
+- GraphQL Federation & API Gateway Patterns
+- Offline-first mobile apps with Realm + Supabase
+
+---
+
+## 📬 Let's Connect!
+
+Feel free to reach out if you're looking for collaboration or have a cool idea in mind!
+
+[LinkedIn](https://www.linkedin.com/in/cvetkostevic/) • [Email](mailto:stevicitconsulting@gmail.com)
