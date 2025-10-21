@@ -78,7 +78,7 @@ languages: ["English (Fluent)", "Serbian (Native)"]
 - Developed cross-platform mobile applications for agricultural technology
 - Built complex UI components with offline-first architecture
 
-**Full-Stack Engineer** @ Jobbrella *(2022 - 2023)*
+**Full-Stack Engineer** @ [Jobbrella](https://jobbrella.se/) *(2022 - 2023)*
 - Architected AI-powered recruiting platform using Next.js & GPT-3
 - Implemented real-time features with Supabase
 
