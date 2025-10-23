@@ -79,33 +79,34 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 
 ### **Software Engineer** @ [Legatics](https://www.legatics.com/) _(April 2023 - Present)_
 
-- 🚀 Developed comprehensive **performance testing framework** using Playwright and Lighthouse
-- 📊 Implemented automated **regression detection** with instant alerts in deployment pipelines
-- ⚡ Led frontend development with **React** and **TypeScript** focusing on **Core Web Vitals**
+- 🚀 Built comprehensive automated testing framework using Playwright covering 400+ test specifications for legal technology platform with authentication, document management, and collaborative workflows
+- 📊 Developed performance testing system using Playwright and Lighthouse to monitor page load speed, visual completion, and Core Web Vitals metrics
+- ⚡ Implemented automated regression detection in CI/CD pipelines with instant Slack alerts and dashboard visualization when performance degrades
+- 🔄 Designed parallel test execution across 7 groups with intelligent scheduling and cross-browser compatibility testing on Chrome, Firefox, and Safari
 
 ### **React Native Engineer** @ [Source.ag](https://www.source.ag/plant-app) _(Oct 2022 - Apr 2023)_
 
-- 📱 Built cross-platform mobile features with **React Native** and **Realm** database
-- 🔄 Developed complex data components with **Redux** state management
-- 🌾 Optimized for tablet use in low-connectivity agricultural environments
+- 📱 Built cross-platform mobile features for agricultural app using React Native and Realm database with offline sync capabilities
+- 🔄 Developed complex data table components with multi-select, batch updates, and sticky headers using Redux state management
+- 🌾 Optimized mobile interface for tablet use with smooth touch interactions and reliable performance in low-connectivity farm environments
 
 ### **Full-Stack Engineer** @ [Jobbrella](https://jobbrella.com/) _(Oct 2022 - Apr 2023)_
 
-- 🤖 Architected AI-powered recruiting platform with **Next.js**, **Supabase**, and **GPT-3**
-- ✨ Built AI content editing tools streamlining recruiter workflows
-- 🔐 Integrated authentication and real-time database with row-level security
+- 🤖 Architected AI-powered recruiting platform using Next.js, Supabase, and GPT-3 integration for intelligent job ad generation
+- ✨ Built AI-powered content editing tools and rich text editors that streamline recruiter workflows
+- 🔐 Integrated authentication, real-time database, and secure file storage with row-level data access controls
 
 ### **Software Engineer** @ [Caspio Inc](https://www.caspio.com/) _(Dec 2020 - Oct 2022)_
 
-- 🧩 Developed reusable **React** components for low-code platform
-- 📝 Refactored legacy JavaScript to modular **TypeScript**
-- ♿ Achieved **WCAG 2.1 AA** accessibility compliance
+- 🧩 Developed reusable React components for Caspio Bridge low-code platform enabling users to build database-driven applications visually
+- 📝 Refactored legacy JavaScript into modular TypeScript components, improving code maintainability and type safety
+- ♿ Achieved WCAG 2.1 AA accessibility compliance and reduced load times through code splitting and lazy loading
 
 ### **Software Engineer** @ [Vega IT](https://www.vegaitglobal.com/) _(Jun 2017 - Dec 2020)_
 
-- 🎨 Delivered high-profile projects with **React**, **Angular**, and **TypeScript**
-- 🔧 Built **Node.js** APIs with secure authentication and database optimization
-- 🤝 Collaborated in Agile teams on projects for Huawei, Apple, and other major brands
+- 🎨 Delivered client projects using Angular, React, and TypeScript including promotional websites for Huawei P30 Pro and Apple AirPods Pro
+- 🔧 Contributed to Node.js backend development creating APIs with secure authentication and optimized database performance
+- 🤝 Collaborated with cross-functional teams in Agile environment ensuring timely project delivery and high quality standards
 
 ---
 
@@ -125,39 +126,75 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 
 ### [🎮 Yomi Game](https://github.com/cvetkoS/yomi-game)
 
-Real-time multiplayer strategy board game with AI-powered gameplay and dual-mode architecture (online/offline).
+Real-time multiplayer strategy board game built with React and Socket.IO. Features AI-powered gameplay, turn-based mechanics, and dual-mode architecture supporting both online multiplayer and offline pass-and-play mode (players share one device). Deployed at zero cost using free hosting tiers.
 
-**Tech:** React, TypeScript, Socket.IO, Node.js, Zustand, Tailwind CSS
+**Key Highlights:**
+- Built real-time multiplayer infrastructure handling up to 4 players per game room with automatic disconnect recovery and synchronized game timers preventing cheating
+- Developed game logic with multiple victory paths, turn-based strategy mechanics, and anti-cheat systems detecting player inactivity or tab switching
+- Architected flexible system supporting both online multiplayer via WebSockets and offline pass-and-play mode using the same game engine
+- Optimized React performance through efficient state management with Zustand avoiding unnecessary re-renders and lazy-loading components for faster initial load times
+
+**Tech:** React, TypeScript, Socket.IO, Node.js, Express, Zustand, Tailwind CSS, Vite, Netlify, Railway
 
 ### [🤖 AI Recruitment Platform](https://github.com/cvetkoS/ai-recruitment-platform)
 
-AI-powered recruiting platform with CV parsing, collaborative hiring boards, and automated workflows.
+AI-powered recruitment web platform (Jobbrella) built with Next.js and OpenAI GPT-3.5. Features intelligent CV parsing, real-time collaborative hiring boards (drag-and-drop candidate management), integrated job marketing, interview scheduling, and comprehensive email automation. Deployed on Vercel with multi-language support.
 
-**Tech:** Next.js, TypeScript, OpenAI GPT-3, Supabase, React Query
+**Key Highlights:**
+- Integrated AI to automatically read and score CVs, cutting review time from 10-15 minutes down to 30 seconds while extracting key candidate information
+- Built collaborative hiring board where multiple recruiters can drag candidates between stages in real-time, seeing each other's changes instantly
+- Automated TypeScript API integration by generating thousands of lines of type-safe code from backend specifications, eliminating manual API coding
+- Implemented multi-language platform supporting Swedish and English markets with automatic language detection based on company domain
+
+**Tech:** Next.js, TypeScript, React, OpenAI, Supabase, Pusher, Tailwind CSS, React Query, Vercel, Postmark
 
 ### [🧪 E2E Automated Testing](https://github.com/cvetkoS/e2e-automated-testing)
 
-Enterprise-grade testing framework with 400+ test specs, parallel execution, and CI/CD integration.
+Automated testing framework for legal technology platform with 400+ test specifications. Features automated deployment integration, parallel test execution across 7 groups, and comprehensive coverage of authentication, document management, and collaborative workflows.
 
-**Tech:** Playwright, TypeScript, GitLab CI/CD, Docker, AWS Cognito
+**Key Highlights:**
+- Built test suite covering 400+ user scenarios with well-organized structure making tests easy to maintain and update as the application evolves
+- Solved complex authentication challenges including session management, two-factor authentication codes, AWS login flows, and automated email verification
+- Designed automated testing pipeline running tests in parallel across 7 groups to catch bugs quickly, with intelligent scheduling and automatic result aggregation
+- Integrated instant Slack alerts when tests fail and detailed reporting dashboard helping team quickly identify and fix issues
+
+**Tech:** Playwright, TypeScript, GitLab CI/CD, Docker, AWS Cognito, GraphQL, Jest, ESLint
 
 ### [⚙️ Setup Dev Environment](https://github.com/cvetkoS/setup-dev-environment)
 
-Enterprise PowerShell automation framework for complete development environment setup.
+PowerShell automation framework that eliminates manual development environment setup for complex microservices platforms. Manages 16+ code repositories, 20+ microservices, and automatically configures web servers (IIS), databases (SQL Server, MySQL), Visual Studio, and Node.js with fully automated setup.
 
-**Tech:** PowerShell, DevOps, IIS, MS SQL Server, .NET Core
+**Key Highlights:**
+- Automated development environment setup with single-command installation for Visual Studio, SQL Server, Node.js, and 20+ development tools
+- Orchestrates Git operations across multiple microservice repositories with automated handling of code updates, branch switching, and merge conflict detection
+- Automatically configures web servers with SSL certificates and custom domains, eliminating hours of manual IIS setup and troubleshooting
+- Reduces new developer onboarding from several days of manual setup to just a few hours, ensuring everyone has identical development environments
+
+**Tech:** PowerShell, DevOps, IIS, MS SQL Server, MySQL, .NET Core, Flyway, NuGet, Chocolatey
 
 ### [🌱 Greenhouse Metrics](https://github.com/cvetkoS/greenhouse-metrics)
 
-React Native mobile app for precision agriculture with 3D plant visualization and offline-first architecture.
+Enterprise React Native mobile application for precision agriculture enabling greenhouse farmers to track plant growth metrics with interactive 3D plant visualization (digital twin). Features real-time measurement recording, offline-first local database (Realm), and cloud synchronization (MongoDB Atlas) across iOS and Android.
 
-**Tech:** React Native, TypeScript, Redux Toolkit, Realm, MongoDB Atlas
+**Key Highlights:**
+- Built interactive 3D plant visualization showing real-time growth structure with touch controls for zooming and manipulating individual plant nodes, giving farmers a digital twin of their crops
+- Architected mobile-first design working seamlessly offline in greenhouses without internet, automatically syncing data to cloud when connection returns without losing any measurements
+- Developed detailed measurement tracking for plant health metrics including leaf size, stem thickness, fruit development, and flowering patterns across different growth stages
+- Implemented smart protocols for different crop types (tomatoes, peppers, cucumbers) with customized measurement forms adapting to each plant variety
+
+**Tech:** React Native, TypeScript, Redux Toolkit, Realm, MongoDB Atlas, AWS Amplify, React Native SVG, i18next, Jest, Detox, Fastlane
 
 ### [💻 Low-Code Platform](https://github.com/cvetkoS/low-code-platform)
 
-Enterprise-scale platform with 5 integrated applications supporting visual application design and RLS.
+Large-scale platform for Caspio low-code/no-code application development. Architected as 5 integrated applications with 17+ shared code libraries, supporting visual application design, user management, role-based permissions with Row-Level Security (users only see their authorized data), PDF template generation, and billing management.
 
-**Tech:** React, TypeScript, Redux, Nx Monorepo, PrimeReact, ag-Grid
+**Key Highlights:**
+- Architected large-scale codebase containing 5 interconnected applications (main platform, PDF designer, billing, account settings, activity logs) with shared component libraries enabling code reuse across the entire ecosystem
+- Built drag-and-drop visual designer allowing business users to create database-driven applications without writing code
+- Implemented security system with role-based permissions and Row-Level Security, ensuring users only see and edit data they are authorized to access
+- Integrated real-time communication for instant updates across all connected users, live account status monitoring, and synchronized logout across multiple browser tabs
+
+**Tech:** React, TypeScript, Redux, Redux-Saga, Nx Monorepo, PrimeReact, ag-Grid, Webpack, SignalR, i18next, Docker, Jest
 
 ---
 
