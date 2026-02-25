@@ -14,13 +14,13 @@
 
 ## About Me
 
-Senior Software Engineer with **8+ years** architecting scalable web, mobile, and native applications. Specializes in React/TypeScript ecosystems, cross-platform development (React Native, Swift/SwiftUI), and AI-powered automation using OpenAI GPT-3.5. Leads quality engineering initiatives including test frameworks covering 400+ specifications and performance monitoring systems. **ISTQB certified** with expertise in CI/CD pipelines, WCAG 2.1 AA accessibility, and delivering production systems serving **15,000+ users**.
+Software engineer with 8+ years across web, mobile, and native platforms. Started at a software engineering firm working with multiple clients and technologies across different stacks, then spent two years building UI components and tooling for an enterprise low-code platform (own product, 15,000+ customers). After that moved into test automation — first for a legaltech platform, now for a digital transformation consultancy. On the side I built and launched two commercial products — Mac Updater Pro (native macOS in Swift) and Invoicr (AI-powered invoicing platform) — handling everything from code to Stripe integration to marketing sites, plus freelance full-stack work for clients. ISTQB certified.
 
 ```yaml
 location: Belgrade, Serbia
 experience: 8+ years
-current_role: Software Engineer (Automation QA Focus) @ Legatics
-focus: ['Test Automation', 'React Development', 'Cross-Platform Development']
+current_role: Automation QA Software Engineer @ Sedona Digital
+focus: ['Test Automation', 'Full-Stack Development', 'Commercial Products']
 certifications: ['ISTQB Foundation 4.0', 'ISTQB Test Automation Engineering']
 languages: ['English (Fluent - C1)', 'Serbian (Native)']
 ```
@@ -43,6 +43,7 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 ![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=react&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -58,9 +59,11 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST-02569B?style=for-the-badge&logo=rest&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
 ### Testing & QA
@@ -69,60 +72,72 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![Mocha](https://img.shields.io/badge/Mocha-8D6748?style=for-the-badge&logo=mocha&logoColor=white)
 ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
+![Detox](https://img.shields.io/badge/Detox-000000?style=for-the-badge&logo=react&logoColor=white)
 ![ISTQB](https://img.shields.io/badge/ISTQB-Certified-red?style=for-the-badge)
 
 ### Cloud & DevOps
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![GitLab CI/CD](https://img.shields.io/badge/GitLab_CI%2FCD-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Cloudflare R2](https://img.shields.io/badge/Cloudflare_R2-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 ### Databases
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MS SQL Server](https://img.shields.io/badge/MS_SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Turso](https://img.shields.io/badge/Turso-4FF8D2?style=for-the-badge&logo=turso&logoColor=black)
 ![Realm](https://img.shields.io/badge/Realm-39477F?style=for-the-badge&logo=realm&logoColor=white)
 
 ---
 
 ## Professional Experience
 
-### **Software Engineer (Automation QA Focus)** @ [Legatics](https://www.legatics.com/) _(April 2023 - Present)_
+### **Automation QA Software Engineer** @ [Sedona Digital](https://faptic.com) _(Feb 2026 - Present)_
 
-- Built comprehensive automated testing framework using Playwright covering 400+ test specifications for legal technology platform with authentication, document management, and collaborative workflows
-- Developed performance testing system using Playwright and Lighthouse to monitor page load speed, visual completion, and Core Web Vitals metrics
-- Implemented automated regression detection in CI/CD pipelines with instant Slack alerts and dashboard visualization when performance degrades
-- Designed parallel test execution across 7 groups with intelligent scheduling and cross-browser compatibility testing on Chrome, Firefox, and Safari
+- Building a Playwright framework for an SAP-based insurance policy system — the main challenge is nested frame architecture that needs custom frame helpers, plus NTLM domain auth
+- Wrote 18+ test specs so far covering policy servicing, beneficiary management, commission validation, and medical exclusion workflows
+- Set up Page Object Model with worker-scoped fixtures, action helpers, and direct SQL Server queries for pulling test data dynamically across UAT and DEV
+- Built a custom Xray reporter for Jira and set up the code quality tooling: Husky pre-commit hooks, strict TypeScript, ESLint, Prettier, Knip for dead code
+
+### **Software Engineer (Automation QA Focus)** @ [Legatics](https://www.legatics.com/) _(April 2023 - Jan 2026)_
+
+- Built the Playwright test suite from scratch — 400+ specs covering the core product: multi-party document workflows, role-based access, and real-time collaboration
+- Set up performance monitoring with Playwright to track load times and visual completion — helped catch regressions early and gave the team real numbers instead of guessing when something got slower
+- Wired performance checks into the GitLab CI pipeline with a dashboard to track trends over time
+- Split the suite across 7 parallel CI groups so developers get test results in minutes instead of waiting on one long run, with cross-browser coverage on Chrome, Firefox, and Safari
 
 ### **React Native Engineer** _(Contract, Part-Time)_ @ [Source.ag](https://www.source.ag/plant-app) _(Oct 2022 - Apr 2023)_
 
-- Built 8+ cross-platform mobile features for agricultural app using React Native and Realm database, achieving 99.5% offline sync reliability
-- Developed complex data table components handling 1,000+ plant records with multi-select, batch updates, and sticky headers using Redux state management
-- Optimized mobile interface for tablet use, reducing touch response latency by 40% and ensuring reliable performance in low-connectivity farm environments
+- Built mobile features for a greenhouse management app in React Native with Realm for offline storage — the app needed to work reliably in greenhouses with poor connectivity
+- Built data table components for browsing 1,000+ plant records on tablets: multi-select, batch updates, and sticky headers with Redux for state
+- Reworked the app for tablet use in the field — added list virtualization for smooth scrolling through large datasets, bigger touch targets for easier use, and retry queues so in-progress actions survive network drops
 
 ### **Full-Stack Engineer** _(Contract, Part-Time)_ @ [Jobbrella](https://jobbrella.com/) _(Oct 2022 - Apr 2023)_
 
-- Architected AI-powered recruiting platform using Next.js, Supabase, and GPT-3.5 integration, reducing job ad creation time from 45 minutes to 5 minutes
-- Built AI-powered CV parsing that automatically extracts and scores candidate data, cutting review time by 90% (from 10-15 minutes to under 60 seconds)
-- Integrated OAuth authentication, real-time database with 50ms response times, and secure file storage with row-level access controls
+- Built a recruiting platform with Next.js, Supabase, and GPT-3.5 — the main feature was AI-generated job ads so recruiters could skip writing them from scratch
+- Added GPT-powered CV parsing that extracts candidate details — skills, experience, education — and ranks them against the job requirements, so recruiters can focus on the best matches instead of reading every application
+- Handled the rest of the stack: OAuth login, real-time candidate status updates via Pusher, and document storage with role-based access
 
 ### **Software Engineer** @ [Caspio Inc](https://www.caspio.com/) _(Dec 2020 - Oct 2022)_
 
-- Developed 50+ reusable React components for Caspio Bridge low-code platform serving 15,000+ active users building database-driven applications
-- Refactored 25,000+ lines of legacy JavaScript into modular TypeScript components, reducing bug reports by 40% and improving code maintainability
-- Achieved WCAG 2.1 AA accessibility compliance and reduced initial page load times by 60% through code splitting and lazy loading
+- Built 50+ React components for the Caspio low-code platform — form fields, data grids, layout widgets — used by 15,000+ customers to create database apps without code
+- Migrated 25,000+ lines of legacy JavaScript to TypeScript — the kind of bugs that used to slip through to QA (wrong property names, missing null checks, broken refactors) started getting caught at compile time instead
+- Brought the platform up to WCAG 2.1 AA compliance — keyboard navigation, ARIA labels, focus management, and color contrast fixes across the customer-facing components
+- Cut page load times with route-level code splitting and lazy loading for the heavier components like the data grid and form designer
+- Wrote PowerShell scripts to automate dev environment setup across 16+ microservice repos — took new developer onboarding from days of manual config to one command
 
 ### **Software Engineer** @ [Vega IT](https://www.vegaitglobal.com/) _(Jun 2017 - Dec 2020)_
 
-- Delivered 15+ client projects using Angular, React, and TypeScript including high-traffic promotional websites for Huawei P30 Pro and Apple AirPods Pro campaigns
-- Contributed to Node.js backend development, creating 10+ REST APIs with JWT authentication and reducing database query times by 35%
-- Collaborated with cross-functional teams of 5-8 engineers in Agile environment, delivering 100% of projects on schedule across 3.5 years
+- Led frontend on 15+ agency projects, including product launch pages for Huawei P30 Pro and Apple AirPods Pro — built in Angular and React with tight campaign deadlines
+- Built Node.js REST APIs with Express and JWT auth for 10+ client projects — when endpoints were slow, dug into PostgreSQL query plans, added indexes, and restructured joins to bring response times down
+- Set up shared Webpack and Gulp configs, project scaffolding, and deployment scripts so every new client project started from a consistent baseline
+- Built responsive layouts across campaign sites, including custom polyfills and fallback styles for IE11 that kept things looking right without modern CSS
 
 ---
 
@@ -142,46 +157,65 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 
 ### [MacUpdaterPro](https://github.com/cvetkoS/MacUpdaterPro)
 
-A native Mac app that keeps all your developer tools up to date automatically. Instead of manually updating Homebrew, npm, Python packages, and 60+ other tools one by one, just click once and everything updates together. Features both a quick-access menu bar icon and a full-featured main window.
+Commercial macOS product I built from the ground up - a menu bar app that keeps everything on your Mac updated. Handles 100+ package managers, from Homebrew and npm to App Store apps and JetBrains IDEs. The project includes four components: the native Swift app, a Node.js API, a React admin dashboard for managing the business, and a marketing website. All running on free-tier infrastructure.
 
 **Key Highlights:**
-- Full native Mac app with both menu bar quick-access and a detailed main window showing all packages, search, filters, and update counts
-- Works with 65+ different package managers (Homebrew, npm, pip, Mac App Store, and more) so you don't have to remember different commands for each
-- Set it and forget it - schedule updates to run automatically overnight or whenever your Mac is idle, with smart retry if something fails
-- Built as a real commercial product with license keys, free trial period, and secure activation that validates without phoning home every time
-- Keeps a full history of every update so you can see what changed and when, with search to find specific packages
+- Wrote the entire codebase myself - about 70K lines across Swift (native app), TypeScript/React (admin dashboard and website), and Node.js (serverless API)
+- Built a complete business system: Stripe payments, license key generation with checksums, machine activation tracking, email campaigns for expiring trials, and a testimonial collection system
+- Created a 9-tab admin dashboard covering everything I need to run the product: error reports, analytics, payments, user management, email templates, feature requests, testimonials, blocked clients, and website stats
+- Detects updates across 100+ sources - Homebrew, npm, pip, Cargo, App Store, Sparkle apps, JetBrains IDEs, Docker, and cloud CLIs. Some update directly, others open the appropriate app (like App Store) for the user to complete
+- Built a world map in the admin dashboard with Mapbox showing where users download the app from, with country/city breakdowns and filtering by continent or top countries
+- Implemented proper crash reporting with signal handlers, automatic error submission, and a resolution workflow so I can actually fix issues users encounter
+- Runs entirely on free tiers: Netlify for hosting, Turso for the database, Cloudflare R2 for DMG storage, Resend for emails. Zero monthly infrastructure costs
 
-**Tech:** Swift, SwiftUI, AppleScript, Bash, Homebrew, LaunchAgent, macOS, System Administration, Automation
+**Tech:** Swift, SwiftUI, React, TypeScript, Node.js, Netlify Functions, Turso, Stripe, Resend, Zustand, SCSS, Vite, Bash, Cloudflare R2, Mapbox
+
+---
+
+### [Invoicr](https://github.com/cvetkoS/invoicr)
+
+AI-powered invoicing platform I built for freelancers. Handles the entire billing workflow - from creating invoices and tracking time to generating contracts with AI and collecting payments through Stripe. The interesting part is the AI integration: upload a PDF or photo of a business card and it extracts all the client details automatically. Same with receipts for expense tracking.
+
+**Key Highlights:**
+- Built 3 connected web applications: the main invoicing app, an admin dashboard, and a marketing website - all sharing types through a TypeScript monorepo
+- Integrated Claude AI for document extraction that reads PDFs, images, and business cards to automatically fill in client information - no manual data entry needed
+- Created 97 serverless API endpoints handling everything from invoice generation to Stripe webhooks, AI processing, and OAuth authentication
+- Implemented AI-powered proposal and contract generation - describe a project and get a professional document ready to send
+- Added receipt scanning that uses AI to extract expense details from photos, categorize spending, and track business costs
+- Set up Stripe Connect for payment processing with automatic invoice status updates via webhooks
+- Runs on free infrastructure: Netlify hosting, Turso database, Cloudflare R2 storage, Resend emails - $0 monthly costs
+
+**Tech:** React, TypeScript, Vite, Zustand, Netlify Functions, Turso, Anthropic Claude, Stripe, Resend, Cloudflare R2, React Email, JWT, OAuth
 
 ---
 
 ### [test-insight](https://github.com/cvetkoS/test-insight)
 
-AI-powered test observability platform that monitors Playwright test failures from GoCD CI/CD pipelines, analyzes failure patterns, detects flaky tests, and generates intelligent AI prompts to help developers fix failing tests 4-6x faster. Full-stack TypeScript monorepo with React dashboard and Fastify backend.
+A dashboard that monitors Playwright test failures from GoCD pipelines, spots flaky tests, and generates AI prompts to help developers debug faster. Full-stack TypeScript monorepo with React and Fastify.
 
 **Key Highlights:**
-- Built intelligent flakiness detection algorithm analyzing test consistency across pipelines with 0-100 scoring system, identifying tests that pass/fail inconsistently or produce different error messages
-- Developed AI prompt generator that creates context-rich debugging prompts including Playwright framework documentation, failure patterns, error history, and specific fix recommendations
-- Architected real-time sync system with Server-Sent Events broadcasting pipeline status changes, automatic sync scheduling, and pipeline completion polling for instant updates
-- Implemented comprehensive console log parser extracting test results, error messages, stack traces, and artifacts (screenshots, videos, traces) from GoCD Playwright test output
-- Built hierarchical test dashboard organizing 400+ tests by pipeline, folder, and file with environment filtering (staging, development, production) and flaky test badges
-- Reduced average test failure debugging time from 80-130 minutes to 12-22 minutes by automating data collection, pattern analysis, and AI-ready prompt generation
+- Built a flakiness detection algorithm that scores tests 0-100 based on how consistently they pass or fail across pipeline runs
+- Wrote an AI prompt generator that pulls together failure patterns, error history, Playwright docs, and fix suggestions into debugging prompts
+- Set up real-time sync with Server-Sent Events for pipeline status changes, plus automatic scheduling and polling for when pipelines finish
+- Built a parser that pulls test results, errors, stack traces, and artifacts (screenshots, videos, traces) out of GoCD console output
+- Built a test dashboard that organizes 400+ tests by pipeline, folder, and file with environment filters and flaky test badges
+- Cut debugging time significantly by automating the grunt work — collecting logs, spotting patterns across runs, and generating AI-ready prompts with all the context a developer needs
 
-**Tech:** TypeScript, React, Fastify, Node.js, GoCD, Playwright, Zustand, TanStack Query, SSE, JWT, Google OAuth, Semantic UI, SCSS, Vite
+**Tech:** React, TypeScript, Fastify, Node.js, GoCD, Playwright, Zustand, TanStack Query, SSE, JWT, Google OAuth, Semantic UI, SCSS, Vite
 
 ---
 
 ### [yomi-game](https://github.com/cvetkoS/yomi-game)
 
-Real-time multiplayer strategy board game built with React and Socket.IO. Features AI-powered gameplay, turn-based mechanics, and dual-mode architecture supporting both online multiplayer and offline pass-and-play mode (players share one device). Deployed at zero cost using free hosting tiers.
+A multiplayer strategy board game I built with React and Socket.IO. Players compete in real-time with turn-based mechanics, and it supports both online multiplayer and local pass-and-play (sharing one device). Runs entirely on free hosting.
 
 **Key Highlights:**
-- Built real-time multiplayer infrastructure handling up to 4 players per game room with automatic disconnect recovery and synchronized game timers preventing cheating
-- Developed game logic with multiple victory paths, turn-based strategy mechanics, and anti-cheat systems detecting player inactivity or tab switching
-- Architected flexible system supporting both online multiplayer via WebSockets and offline pass-and-play mode using the same game engine
-- Optimized React performance through efficient state management with Zustand avoiding unnecessary re-renders and lazy-loading components for faster initial load times
-- Deployed completely free using Netlify for frontend and Railway for backend, demonstrating cost-effective architecture design
-- Established professional development workflow with TypeScript for type safety, automated testing, code quality checks, and streamlined deployment
+- Built real-time multiplayer with Socket.IO — handles up to 4 players per room, recovers from disconnects, and syncs game timers to prevent cheating
+- Wrote the game logic with multiple ways to win, turn-based strategy, and anti-cheat that detects tab switching or going idle
+- Set it up so the same game engine powers both online multiplayer over WebSockets and offline pass-and-play mode
+- Kept React performance tight with Zustand for state management and lazy-loading to speed up the initial load
+- Runs for free — Netlify for the frontend, Railway for the backend
+- Set up TypeScript, automated tests, and code quality checks to keep things clean as the codebase grew
 
 **Tech:** React, TypeScript, Socket.IO, Node.js, Express, Zustand, Tailwind CSS, Vite, Netlify, Railway
 
@@ -189,30 +223,30 @@ Real-time multiplayer strategy board game built with React and Socket.IO. Featur
 
 ### [e2e-automated-testing](https://github.com/cvetkoS/e2e-automated-testing)
 
-Automated testing framework for legal technology platform with 400+ test specifications. Features automated deployment integration, parallel test execution across 7 groups, and comprehensive coverage of authentication, document management, and collaborative workflows.
+The Playwright test framework I built at Legatics — 400+ specs covering authentication, document workflows, and real-time collaboration features. The app uses a GraphQL API so all test helpers hit GraphQL endpoints. Runs in parallel across 7 groups in GitLab CI.
 
 **Key Highlights:**
-- Built test suite covering 400+ user scenarios with well-organized structure making tests easy to maintain and update as the application evolves
-- Solved complex authentication challenges including session management, two-factor authentication codes, AWS login flows, and automated email verification
-- Designed automated testing pipeline running tests in parallel across 7 groups to catch bugs quickly, with intelligent scheduling and automatic result aggregation
-- Integrated instant Slack alerts when tests fail and detailed reporting dashboard helping team quickly identify and fix issues
-- Ensured cross-browser compatibility by testing on Chrome, Firefox, and Safari with automatic screenshots and video recordings of test failures for easier debugging
+- Built 400+ test specs organized so they are easy to maintain and update as the product changes
+- Solved the hardest parts of test auth — session management, 2FA codes, AWS Cognito login flows, and automated email verification
+- Set up the CI pipeline to run tests in parallel across 7 groups with scheduling and automatic result aggregation
+- Sent smoke, snapshot, and API test results to a Slack channel so the team could spot failures quickly
+- Tests run on Chrome, Firefox, and Safari with automatic screenshots and video recordings when something fails
 
-**Tech:** Playwright, TypeScript, GitLab CI/CD, Docker, AWS Cognito, GraphQL, Jest, ESLint
+**Tech:** Playwright, TypeScript, GitLab CI/CD, Docker, AWS Cognito, GraphQL, Jest
 
 ---
 
 ### [ai-recruitment-platform](https://github.com/cvetkoS/ai-recruitment-platform)
 
-AI-powered recruitment web platform (Jobbrella) built with Next.js and OpenAI GPT-3.5. Features intelligent CV parsing, real-time collaborative hiring boards (drag-and-drop candidate management), integrated job marketing, interview scheduling, and comprehensive email automation. Deployed on Vercel with multi-language support.
+The Jobbrella platform — a recruitment tool I built with Next.js and GPT-3.5. Recruiters get AI-powered CV parsing, drag-and-drop hiring boards, job posting distribution, interview scheduling, and email automation. Supports Swedish and English markets.
 
 **Key Highlights:**
-- Integrated AI to automatically read and score CVs, cutting review time from 10-15 minutes down to 30 seconds while extracting key candidate information
+- Integrated AI to automatically read and score CVs, pulling out key candidate details so recruiters can focus on the shortlist instead of reading every application
 - Built collaborative hiring board where multiple recruiters can drag candidates between stages in real-time, seeing each other's changes instantly
-- Automated TypeScript API integration by generating thousands of lines of type-safe code from backend specifications, eliminating manual API coding
-- Implemented multi-language platform supporting Swedish and English markets with automatic language detection based on company domain
-- Developed job posting system automatically distributing listings across multiple job boards with campaign performance tracking and budget management
-- Created comprehensive email system handling candidate communication with customizable templates, attachments, and two-way conversations
+- Generated thousands of lines of type-safe TypeScript API code from backend specs — saved a lot of manual API wiring
+- Added multi-language support for Swedish and English markets with automatic language detection based on company domain
+- Built job posting distribution that pushes listings to multiple job boards with tracking for how each one performs
+- Built the email system for candidate communication — customizable templates, attachments, and two-way conversations
 
 **Tech:** Next.js, TypeScript, React, OpenAI, Supabase, Pusher, Tailwind CSS, React Query, Vercel, Postmark
 
@@ -220,46 +254,46 @@ AI-powered recruitment web platform (Jobbrella) built with Next.js and OpenAI GP
 
 ### [mini-c-compiler](https://github.com/cvetkoS/mini-c-compiler)
 
-Complete compiler for C-like MiniC language that translates high-level source code into executable assembly code for a custom processor. Demonstrates full compiler pipeline from reading source code through generating machine instructions, including variable tracking, type checking, and processor simulation.
+A compiler I built for a C-like language (MiniC) that goes all the way from source code to assembly for a custom processor. Covers the full pipeline — lexing, parsing, semantic checks, code generation — plus a CPU simulator for debugging the output.
 
 **Key Highlights:**
-- Built full compiler translating C-like source code into executable assembly through multiple stages: lexical analysis, parsing, semantic validation, and code generation
-- Designed variable tracking system managing data types and visibility throughout nested code blocks, similar to how modern compilers organize memory
-- Implemented processor register allocation and efficient memory management ensuring generated assembly code runs optimally
-- Created extensive test suite validating compiler correctness from syntax checking through final program execution with expected outputs
-- Developed custom CPU simulator allowing step-by-step debugging of generated assembly code to verify compiler accuracy
+- Built the full compiler pipeline: lexical analysis, parsing, semantic validation, and code generation from C-like source to executable assembly
+- Wrote a symbol table that tracks data types and variable scope through nested blocks
+- Handles register allocation and memory management so the generated assembly actually runs efficiently
+- Test suite covers everything from syntax errors through full program execution with expected outputs
+- Built a CPU simulator that lets you step through the generated assembly instruction by instruction
 
-**Tech:** C, Assembly, Bison, Flex, GCC, Make, RISC Architecture, Compiler Design
+**Tech:** C, Flex, Bison, Assembly, Make, GCC, Compiler Design, RISC Architecture
 
 ---
 
 ### [datapage-engine](https://github.com/cvetkoS/datapage-engine)
 
-Full-stack application framework that automatically generates user interfaces from database configurations. Combines ASP.NET Core backend with React frontend to dynamically create forms, reports (tables/spreadsheets/calendars), dashboards, and authentication flows without hand-coding templates.
+A framework that generates UIs from database configs — you set up your tables and it creates forms, reports, dashboards, and auth flows automatically. ASP.NET Core backend with a React frontend.
 
 **Key Highlights:**
-- Engineered system that automatically generates user interfaces from database structures, eliminating the need to hand-code forms and reports for every table
-- Built powerful data processing engine handling all database operations (create, read, update, delete) with automatic validation, business rule enforcement, and trigger execution
-- Implemented flexible form system supporting different user workflows (adding records, viewing details, searching data, user signup) with smart features like conditional fields and auto-calculated values
-- Developed modular widget system allowing easy customization of navigation menus, login flows, branding elements, and page layouts through configuration rather than code
-- Integrated cloud file storage (AWS S3) and enterprise authentication methods supporting single sign-on and multi-factor authentication
-- Created versatile reporting system displaying data as traditional tables, Excel-like spreadsheets, or interactive calendars with built-in editing capabilities
+- Built a system that generates user interfaces straight from database structures — no need to hand-code forms and reports for every table
+- Wrote the data layer handling all CRUD operations with validation, business rules, and trigger execution built in
+- Built different form types for different workflows — adding records, viewing details, searching, signup — with conditional fields and auto-calculated values
+- Created a widget system for customizing navigation, login pages, branding, and layouts through config rather than code
+- Hooked up AWS S3 for file storage and added SSO and multi-factor auth
+- Built reports that display as tables, spreadsheets, or interactive calendars with inline editing
 
-**Tech:** ASP.NET Core, C#, React, TypeScript, Redux, PrimeReact, LinqToDB, AutoMapper, AWS S3, Docker, Nginx, FullCalendar
+**Tech:** ASP.NET Core, C#, React, TypeScript, Redux, LinqToDB, AutoMapper, PrimeReact, FullCalendar, Docker, Nginx, AWS S3
 
 ---
 
 ### [setup-dev-environment](https://github.com/cvetkoS/setup-dev-environment)
 
-PowerShell automation framework that eliminates manual development environment setup for complex microservices platforms. Manages 16+ code repositories, 20+ microservices, and automatically configures web servers (IIS), databases (SQL Server, MySQL), Visual Studio, and Node.js with fully automated setup.
+PowerShell scripts that handle the entire dev environment setup for a complex microservices platform. One command gets you 16+ repos cloned, 20+ microservices configured, IIS set up, databases (SQL Server, MySQL) migrated, Visual Studio ready, and Node.js installed.
 
 **Key Highlights:**
-- Automated development environment setup with single-command installation for Visual Studio, SQL Server, Node.js, and 20+ development tools
-- Orchestrates Git operations across multiple microservice repositories with automated handling of code updates, branch switching, and merge conflict detection
-- Automatically configures web servers with SSL certificates and custom domains, eliminating hours of manual IIS setup and troubleshooting
-- Manages database migrations and schema updates across multiple databases (MySQL and SQL Server) ensuring all developers work with consistent data structures
-- Built PowerShell framework demonstrating advanced Windows automation and infrastructure-as-code principles
-- Reduces new developer onboarding from several days of manual setup to just a few hours, ensuring everyone has identical development environments
+- Sets up a full dev environment with one command — Visual Studio, SQL Server, Node.js, and 20+ other tools
+- Handles Git operations across all the microservice repos — pulling updates, switching branches, and flagging merge conflicts automatically
+- Configures IIS with SSL certificates and custom domains automatically, which used to take hours of manual setup and troubleshooting
+- Runs database migrations across both MySQL and SQL Server so all developers are working with the same schema
+- Built as a reusable PowerShell framework — good example of Windows automation and infrastructure-as-code thinking
+- Cut new developer onboarding from several days of manual setup to a few hours, and everyone ends up with the same environment
 
 **Tech:** PowerShell, DevOps, IIS, MS SQL Server, MySQL, .NET Core, Flyway, NuGet, Chocolatey
 
@@ -267,15 +301,15 @@ PowerShell automation framework that eliminates manual development environment s
 
 ### [greenhouse-metrics](https://github.com/cvetkoS/greenhouse-metrics)
 
-Enterprise React Native mobile application for precision agriculture enabling greenhouse farmers to track plant growth metrics with interactive 3D plant visualization (digital twin). Features real-time measurement recording, offline-first local database (Realm), and cloud synchronization (MongoDB Atlas) across iOS and Android.
+React Native app for greenhouse farmers to track plant growth with an interactive 3D plant view (kind of a digital twin). Works offline with Realm and syncs to MongoDB Atlas when you get connectivity back. Built for iOS and Android.
 
 **Key Highlights:**
-- Built interactive 3D plant visualization showing real-time growth structure with touch controls for zooming and manipulating individual plant nodes, giving farmers a digital twin of their crops
-- Architected mobile-first design working seamlessly offline in greenhouses without internet, automatically syncing data to cloud when connection returns without losing any measurements
-- Developed detailed measurement tracking for plant health metrics including leaf size, stem thickness, fruit development, and flowering patterns across different growth stages
-- Implemented smart protocols for different crop types (tomatoes, peppers, cucumbers) with customized measurement forms adapting to each plant variety
-- Designed intuitive mistake correction allowing farmers to undo incorrect measurements and review historical data changes while preventing accidental edits to locked records
-- Built multi-language support for international users across 5 languages with secure authentication for farm team collaboration
+- Built an interactive 3D plant visualization with touch controls for zooming and manipulating individual nodes — gives farmers a digital twin of their crops
+- Built it offline-first so it works in greenhouses without internet — data syncs to the cloud when the connection comes back, without losing anything
+- Tracks detailed plant metrics — leaf size, stem thickness, fruit development, flowering patterns — across different growth stages
+- Set up measurement protocols for different crops (tomatoes, peppers, cucumbers) with forms that adapt to each plant type
+- Added undo for incorrect measurements and a history view for reviewing changes, with locked records to prevent accidental edits
+- Supports 5 languages with auth for team collaboration across farms
 
 **Tech:** React Native, TypeScript, Redux Toolkit, Realm, MongoDB Atlas, AWS Amplify, React Native SVG, i18next, Jest, Detox, Fastlane
 
@@ -283,15 +317,15 @@ Enterprise React Native mobile application for precision agriculture enabling gr
 
 ### [low-code-platform](https://github.com/cvetkoS/low-code-platform)
 
-Large-scale platform for Caspio low-code/no-code application development. Architected as 5 integrated applications with 17+ shared code libraries, supporting visual application design, user management, role-based permissions with Row-Level Security (users only see their authorized data), PDF template generation, and billing management.
+The main Caspio platform — 5 connected apps with 17+ shared libraries. Covers visual app building, user management, role-based permissions with Row-Level Security, PDF generation, and billing.
 
 **Key Highlights:**
-- Architected large-scale codebase containing 5 interconnected applications (main platform, PDF designer, billing, account settings, activity logs) with shared component libraries enabling code reuse across the entire ecosystem
-- Built drag-and-drop visual designer allowing business users to create database-driven applications without writing code
-- Implemented security system with role-based permissions and Row-Level Security, ensuring users only see and edit data they are authorized to access
-- Integrated real-time communication for instant updates across all connected users, live account status monitoring, and synchronized logout across multiple browser tabs
-- Developed extensive library of reusable React components that maintain consistent look and feel while reducing development time for new features
-- Built multi-language support covering 20+ translation sets with automatic language detection based on user browser preferences
+- Set up the codebase as 5 connected apps (main platform, PDF designer, billing, account settings, activity logs) with shared component libraries so code gets reused across all of them
+- Built the drag-and-drop visual designer that lets business users create database apps without writing code
+- Built the security layer with role-based permissions and Row-Level Security so users only see and edit the data they are supposed to
+- Added real-time updates with SignalR — instant notifications, live account status, and synchronized logout across browser tabs
+- Built a shared React component library that kept the UI consistent and sped up building new features
+- Added i18n with 20+ translation sets and automatic language detection from browser preferences
 
 **Tech:** React, TypeScript, Redux, Redux-Saga, Nx Monorepo, PrimeReact, ag-Grid, Webpack, SignalR, i18next, Docker, Jest
 
@@ -314,13 +348,10 @@ The website you are looking at right now. A portfolio site that generates two di
 
 ## What I'm Currently Working On
 
-- Building comprehensive **Playwright automation frameworks** for performance testing
-- Developing native **macOS applications** with Swift and SwiftUI
-- Creating **AI-powered developer tools** for test automation
-- Exploring advanced **React Native** patterns and performance optimization
-- Contributing to open-source testing tools and libraries
-- Deepening knowledge in **AWS** cloud services and infrastructure
-- Optimizing **Core Web Vitals** and frontend performance metrics
+- Building **Playwright automation** for SAP-based insurance systems at Sedona Digital
+- Maintaining and improving **Mac Updater Pro** (commercial macOS product)
+- Developing **Invoicr** (AI-powered invoicing platform)
+- Expanding test automation expertise with **ISTQB certifications**
 
 ---
 
@@ -340,22 +371,10 @@ Technical Faculty Mihajlo Pupin, Zrenjanin, Serbia • 2020
 
 ## Let's Connect
 
-I'm always interested in connecting with fellow engineers, discussing technical challenges, or exploring collaboration opportunities. Whether you need expertise in React, mobile development, native macOS apps, or comprehensive test automation—let's talk!
-
 <div align="center">
 
 [![Website](https://img.shields.io/badge/Visit_My_Website-cvetko--stevic.com-00d4ff?style=for-the-badge&logo=google-chrome)](https://cvetko-stevic.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/cvetkostevic/)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:stevicitconsulting@gmail.com)
-
-</div>
-
----
-
-<div align="center">
-
-_"Quality is not an act, it is a habit." - Aristotle_
-
-From [cvetkoS](https://github.com/cvetkoS)
 
 </div>
