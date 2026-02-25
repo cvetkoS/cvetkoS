@@ -141,18 +141,6 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-![Cvetko's GitHub Stats](https://github-readme-stats.vercel.app/api?username=cvetkoS&show_icons=true&theme=radical&hide_border=true&bg_color=1a1a1a&title_color=00d4ff&icon_color=00d4ff&text_color=e0e0e0)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cvetkoS&layout=compact&theme=radical&hide_border=true&bg_color=1a1a1a&title_color=00d4ff&text_color=e0e0e0)
-
-</div>
-
----
-
 ## Featured Projects
 
 ### [MacUpdaterPro](https://github.com/cvetkoS/MacUpdaterPro)
