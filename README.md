@@ -69,6 +69,7 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 ### Testing & QA
 
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![Mocha](https://img.shields.io/badge/Mocha-8D6748?style=for-the-badge&logo=mocha&logoColor=white)
 ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
@@ -100,16 +101,18 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 
 ### **Automation QA Software Engineer** @ [Sedona Digital](https://faptic.com) _(Feb 2026 - Present)_
 
-- Building a Playwright framework for an SAP-based insurance policy system — the main challenge is nested frame architecture that needs custom frame helpers, plus NTLM domain auth
+- Building a Playwright and Selenium framework for an SAP-based insurance policy system — the main challenge is nested frame architecture that needs custom frame helpers, plus NTLM domain auth
 - Wrote 18+ test specs so far covering policy servicing, beneficiary management, commission validation, and medical exclusion workflows
-- Set up Page Object Model with worker-scoped fixtures, action helpers, and direct SQL Server queries for pulling test data dynamically across UAT and DEV
+- Set up Page Object Model with worker-scoped fixtures, action helpers, and direct SQL Server and PostgreSQL queries for pulling test data dynamically across UAT and DEV
+- Added API testing for REST endpoints across multiple environments, validating data contracts and integration points between SAP modules
 - Built a custom Xray reporter for Jira and set up the code quality tooling: Husky pre-commit hooks, strict TypeScript, ESLint, Prettier, Knip for dead code
 
 ### **Software Engineer (Automation QA Focus)** @ [Legatics](https://www.legatics.com/) _(April 2023 - Jan 2026)_
 
-- Built the Playwright test suite from scratch — 400+ specs covering the core product: multi-party document workflows, role-based access, and real-time collaboration
+- Built the Playwright test suite from scratch — 400+ specs covering the core product: multi-party document workflows, role-based access, and real-time collaboration. Maintained a Selenium suite for legacy modules still running on older browser engines
 - Set up performance monitoring with Playwright to track load times and visual completion — helped catch regressions early and gave the team real numbers instead of guessing when something got slower
-- Wired performance checks into the GitLab CI pipeline with a dashboard to track trends over time
+- Wrote API tests against the GraphQL and REST layers to validate data integrity, auth flows, and integration points — ran alongside the E2E suite in the GitLab CI pipeline
+- Wired performance checks into the GitLab CI pipeline with a dashboard to track trends over time, with PostgreSQL-backed storage for historical metrics
 - Split the suite across 7 parallel CI groups so developers get test results in minutes instead of waiting on one long run, with cross-browser coverage on Chrome, Firefox, and Safari
 
 ### **React Native Engineer** _(Contract, Part-Time)_ @ [Source.ag](https://www.source.ag/plant-app) _(Oct 2022 - Apr 2023)_
@@ -120,7 +123,7 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 
 ### **Full-Stack Engineer** _(Contract, Part-Time)_ @ [Jobbrella](https://jobbrella.com/) _(Oct 2022 - Apr 2023)_
 
-- Built a recruiting platform with Next.js, Supabase, and GPT-3.5 — the main feature was AI-generated job ads so recruiters could skip writing them from scratch
+- Built a recruiting platform with Next.js, Supabase (PostgreSQL), and GPT-3.5 — the main feature was AI-generated job ads so recruiters could skip writing them from scratch
 - Added GPT-powered CV parsing that extracts candidate details — skills, experience, education — and ranks them against the job requirements, so recruiters can focus on the best matches instead of reading every application
 - Handled the rest of the stack: OAuth login, real-time candidate status updates via Pusher, and document storage with role-based access
 
@@ -128,6 +131,7 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 
 - Built 50+ React components for the Caspio low-code platform — form fields, data grids, layout widgets — used by 15,000+ customers to create database apps without code
 - Migrated 25,000+ lines of legacy JavaScript to TypeScript — the kind of bugs that used to slip through to QA (wrong property names, missing null checks, broken refactors) started getting caught at compile time instead
+- Wrote Selenium tests for the component library and form designer — automated regression checks that ran on every PR to catch visual and functional breakdowns across browsers
 - Brought the platform up to WCAG 2.1 AA compliance — keyboard navigation, ARIA labels, focus management, and color contrast fixes across the customer-facing components
 - Cut page load times with route-level code splitting and lazy loading for the heavier components like the data grid and form designer
 - Wrote PowerShell scripts to automate dev environment setup across 16+ microservice repos — took new developer onboarding from days of manual config to one command
