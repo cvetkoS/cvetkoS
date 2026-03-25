@@ -2,7 +2,7 @@
 
 # Cvetko Stević
 
-### Senior Software Engineer | React • Node.js • TypeScript • React Native • Swift
+### Engineering Manager, Software Quality | Playwright • Selenium • React • Node.js • TypeScript
 
 [![Website](https://img.shields.io/badge/Website-cvetko--stevic.com-00d4ff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://cvetko-stevic.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cvetkostevic/)
@@ -14,13 +14,13 @@
 
 ## About Me
 
-Software engineer with 8+ years across web, mobile, and native platforms. Started at a software engineering firm working with multiple clients and technologies across different stacks, then spent two years building UI components and tooling for an enterprise low-code platform (own product, 15,000+ customers). After that moved into test automation — first for a legaltech platform, now for a digital transformation consultancy. On the side I built and launched two commercial products — Mac Updater Pro (native macOS in Swift) and Invoicr (AI-powered invoicing platform) — handling everything from code to Stripe integration to marketing sites, plus freelance full-stack work for clients. ISTQB certified.
+Quality engineering leader with 8+ years across web, mobile, and native platforms — including 3+ years managing and mentoring a distributed QA team. Built a QA function from zero at Legatics: wrote the test strategy, hired and grew the team from 0 to 7, and scaled a Playwright suite to 400+ specs, and cut the regression cycle from 6 weeks to 3. Before that, spent four years as a full-stack developer (React, Node.js, TypeScript) shipping client projects and enterprise platform features. On the side, built and launched two commercial products — Mac Updater Pro (native macOS) and Invoicr (AI-powered invoicing). ISTQB certified.
 
 ```yaml
 location: Belgrade, Serbia
 experience: 8+ years
 current_role: Automation QA Software Engineer @ Sedona Digital
-focus: ['Test Automation', 'Full-Stack Development', 'Commercial Products']
+focus: ['QA Leadership', 'Test Automation', 'Full-Stack Development']
 certifications: ['ISTQB Foundation 4.0', 'ISTQB Test Automation Engineering']
 languages: ['English (Fluent - C1)', 'Serbian (Native)']
 ```
@@ -44,10 +44,8 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=react&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ### Mobile & Native Development
@@ -59,21 +57,19 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST-02569B?style=for-the-badge&logo=rest&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
 ### Testing & QA
 
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
-![Mocha](https://img.shields.io/badge/Mocha-8D6748?style=for-the-badge&logo=mocha&logoColor=white)
 ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![Detox](https://img.shields.io/badge/Detox-000000?style=for-the-badge&logo=react&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![ISTQB](https://img.shields.io/badge/ISTQB-Certified-red?style=for-the-badge)
 
 ### Cloud & DevOps
@@ -84,7 +80,6 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 ![GitLab CI/CD](https://img.shields.io/badge/GitLab_CI%2FCD-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Cloudflare R2](https://img.shields.io/badge/Cloudflare_R2-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 ### Databases
 
@@ -92,7 +87,6 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 ![MS SQL Server](https://img.shields.io/badge/MS_SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Turso](https://img.shields.io/badge/Turso-4FF8D2?style=for-the-badge&logo=turso&logoColor=black)
 ![Realm](https://img.shields.io/badge/Realm-39477F?style=for-the-badge&logo=realm&logoColor=white)
 
 ---
@@ -107,31 +101,27 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 - Added API testing for REST endpoints across multiple environments, validating data contracts and integration points between SAP modules
 - Built a custom Xray reporter for Jira and set up the code quality tooling: Husky pre-commit hooks, strict TypeScript, ESLint, Prettier, Knip for dead code
 
-### **Software Engineer (Automation QA Focus)** @ [Legatics](https://www.legatics.com/) _(April 2023 - Jan 2026)_
+### **QA Engineering Manager** @ [Legatics](https://www.legatics.com/) _(October 2022 - Jan 2026)_
 
-- Built the Playwright test suite from scratch — 400+ specs covering the core product: multi-party document workflows, role-based access, and real-time collaboration. Maintained a Selenium suite for legacy modules still running on older browser engines
-- Set up performance monitoring with Playwright to track load times and visual completion — helped catch regressions early and gave the team real numbers instead of guessing when something got slower
+- Built the QA function from zero — wrote the test strategy, defined quality gates for each pipeline stage, hired the team from 0 to 7 engineers, and established the standards for how tests get written, reviewed, and maintained
+- Managed a distributed team of 6-7 QA engineers — ran weekly 1:1s, wrote performance reviews, and mentored juniors through pair-programming on Playwright scripts until they could own test areas independently
+- Owned release management: moved from ad-hoc deploys to a structured process with release checklists, cross-team sign-offs, and rollback procedures — went from roughly one production incident per release cycle to near-zero
+- Created an internal wiki documenting the platform's multi-party legal workflows, role hierarchies, and edge cases — became the primary onboarding resource for both QA hires and developers joining the team
+- Built the Playwright test suite from scratch — 400+ specs covering document workflows, role-based access, and real-time collaboration. Migrated legacy Selenium tests to Playwright as browser support allowed
+- Cut the regression cycle from 6 weeks to 3 by building smoke, API, and snapshot test suites that ran automatically after every change across dev, staging, and production
 - Wrote API tests against the GraphQL and REST layers to validate data integrity, auth flows, and integration points — ran alongside the E2E suite in the GitLab CI pipeline
-- Wired performance checks into the GitLab CI pipeline with a dashboard to track trends over time, with PostgreSQL-backed storage for historical metrics
-- Split the suite across 7 parallel CI groups so developers get test results in minutes instead of waiting on one long run, with cross-browser coverage on Chrome, Firefox, and Safari
-
-### **React Native Engineer** _(Contract, Part-Time)_ @ [Source.ag](https://www.source.ag/plant-app) _(Oct 2022 - Apr 2023)_
-
-- Built mobile features for a greenhouse management app in React Native with Realm for offline storage — the app needed to work reliably in greenhouses with poor connectivity
-- Built data table components for browsing 1,000+ plant records on tablets: multi-select, batch updates, and sticky headers with Redux for state
-- Reworked the app for tablet use in the field — added list virtualization for smooth scrolling through large datasets, bigger touch targets for easier use, and retry queues so in-progress actions survive network drops
-
-### **Full-Stack Engineer** _(Contract, Part-Time)_ @ [Jobbrella](https://jobbrella.com/) _(Oct 2022 - Apr 2023)_
-
-- Built a recruiting platform with Next.js, Supabase (PostgreSQL), and GPT-3.5 — the main feature was AI-generated job ads so recruiters could skip writing them from scratch
-- Added GPT-powered CV parsing that extracts candidate details — skills, experience, education — and ranks them against the job requirements, so recruiters can focus on the best matches instead of reading every application
-- Handled the rest of the stack: OAuth login, real-time candidate status updates via Pusher, and document storage with role-based access
+- Set up quality gates on every PR and wired performance monitoring into GitLab CI with PostgreSQL-backed dashboards tracking load times, flakiness scores, and defect escape rates over time
+- Set up nightly regression runs — 400+ tests split across 7 sequential groups in GitLab CI, each group triggering the next on completion, with cross-browser coverage on Chrome, Firefox, and Safari. Results landed in Slack by morning so the team knew what broke overnight
 
 ### **Software Engineer** @ [Caspio Inc](https://www.caspio.com/) _(Dec 2020 - Oct 2022)_
 
 - Built 50+ React components for the Caspio low-code platform — form fields, data grids, layout widgets — used by 15,000+ customers to create database apps without code
 - Migrated 25,000+ lines of legacy JavaScript to TypeScript — the kind of bugs that used to slip through to QA (wrong property names, missing null checks, broken refactors) started getting caught at compile time instead
 - Wrote Selenium tests for the component library and form designer — automated regression checks that ran on every PR to catch visual and functional breakdowns across browsers
+- Set up Jest snapshot testing for the React component library — caught unintended markup and style changes before they reached QA, which mattered when 15,000+ customers depended on those components rendering consistently
+- Built integration tests for the REST APIs backing the form designer and data grid — validated CRUD operations, permission checks, and edge cases across the microservice layer so broken contracts between services got caught in CI, not in production
+- Partnered with the QA team to build out structured test plans for major releases — defined smoke, regression, and integration suites that mapped to customer-facing workflows, so we stopped relying on ad-hoc manual passes and started catching cross-service breakdowns systematically
+- Mentored 2 junior engineers over ~6 months on React component development and writing unit/integration tests with Mocha and React Testing Library — code reviews, pair-programming sessions, and gradually handing off component ownership as they ramped up
 - Brought the platform up to WCAG 2.1 AA compliance — keyboard navigation, ARIA labels, focus management, and color contrast fixes across the customer-facing components
 - Cut page load times with route-level code splitting and lazy loading for the heavier components like the data grid and form designer
 - Wrote PowerShell scripts to automate dev environment setup across 16+ microservice repos — took new developer onboarding from days of manual config to one command
@@ -141,6 +131,8 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 - Led frontend on 15+ agency projects, including product launch pages for Huawei P30 Pro and Apple AirPods Pro — built in Angular and React with tight campaign deadlines
 - Built Node.js REST APIs with Express and JWT auth for 10+ client projects — when endpoints were slow, dug into PostgreSQL query plans, added indexes, and restructured joins to bring response times down
 - Set up shared Webpack and Gulp configs, project scaffolding, and deployment scripts so every new client project started from a consistent baseline
+- Wrote Jest unit tests and Mocha integration tests across client projects — enough to catch regressions before handoffs and keep things from breaking when someone else picked up the code
+- Ran cross-browser and smoke testing as part of the handoff process — verified layouts in IE11, Edge, and Safari, and hit API endpoints with Postman to make sure nothing was quietly failing before client demos
 - Built responsive layouts across campaign sites, including custom polyfills and fallback styles for IE11 that kept things looking right without modern CSS
 
 ---
