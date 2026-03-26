@@ -14,11 +14,10 @@
 
 ## About Me
 
-Quality engineering leader with 8+ years across web, mobile, and native platforms — including 3+ years managing and mentoring a distributed QA team. Built a QA function from zero at Legatics: wrote the test strategy, hired and grew the team from 0 to 7, and scaled a Playwright suite to 400+ specs, and cut the regression cycle from 6 weeks to 3. Before that, spent four years as a full-stack developer (React, Node.js, TypeScript) shipping client projects and enterprise platform features. On the side, built and launched two commercial products — Mac Updater Pro (native macOS) and Invoicr (AI-powered invoicing). ISTQB certified.
+Quality engineering leader with a full-stack development background (React, Node.js, TypeScript) spanning web, mobile, and native platforms. Built a QA function from scratch: authored the test strategy, hired and scaled a distributed team, grew a Playwright suite to 400+ specs, and cut the regression cycle in half. The kind of engineer who builds QA practices, not just test suites, and ships real products on the side: Mac Updater Pro (native macOS, 70K lines of code) and Invoicr (AI-powered invoicing). ISTQB certified.
 
 ```yaml
 location: Belgrade, Serbia
-experience: 8+ years
 current_role: Automation QA Software Engineer @ Sedona Digital
 focus: ['QA Leadership', 'Test Automation', 'Full-Stack Development']
 certifications: ['ISTQB Foundation 4.0', 'ISTQB Test Automation Engineering']
@@ -78,6 +77,7 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![GitLab CI/CD](https://img.shields.io/badge/GitLab_CI%2FCD-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![GoCD](https://img.shields.io/badge/GoCD-94399E?style=for-the-badge&logo=gocd&logoColor=white)
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
@@ -95,44 +95,45 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 
 ### **Automation QA Software Engineer** @ [Sedona Digital](https://faptic.com) _(Feb 2026 - Present)_
 
-- Building a Playwright and Selenium framework for an SAP-based insurance policy system — the main challenge is nested frame architecture that needs custom frame helpers, plus NTLM domain auth
-- Wrote 18+ test specs so far covering policy servicing, beneficiary management, commission validation, and medical exclusion workflows
+- Building a Playwright and Selenium framework for an SAP-based insurance policy system. The main challenge is nested frame architecture that needs custom frame helpers, plus NTLM domain auth
+- Writing test specs covering policy servicing, beneficiary management, commission validation, and medical exclusion workflows
 - Set up Page Object Model with worker-scoped fixtures, action helpers, and direct SQL Server and PostgreSQL queries for pulling test data dynamically across UAT and DEV
 - Added API testing for REST endpoints across multiple environments, validating data contracts and integration points between SAP modules
 - Built a custom Xray reporter for Jira and set up the code quality tooling: Husky pre-commit hooks, strict TypeScript, ESLint, Prettier, Knip for dead code
 
 ### **QA Engineering Manager** @ [Legatics](https://www.legatics.com/) _(October 2022 - Jan 2026)_
 
-- Built the QA function from zero — wrote the test strategy, defined quality gates for each pipeline stage, hired the team from 0 to 7 engineers, and established the standards for how tests get written, reviewed, and maintained
-- Managed a distributed team of 6-7 QA engineers — ran weekly 1:1s, wrote performance reviews, and mentored juniors through pair-programming on Playwright scripts until they could own test areas independently
-- Owned release management: moved from ad-hoc deploys to a structured process with release checklists, cross-team sign-offs, and rollback procedures — went from roughly one production incident per release cycle to near-zero
-- Created an internal wiki documenting the platform's multi-party legal workflows, role hierarchies, and edge cases — became the primary onboarding resource for both QA hires and developers joining the team
-- Built the Playwright test suite from scratch — 400+ specs covering document workflows, role-based access, and real-time collaboration. Migrated legacy Selenium tests to Playwright as browser support allowed
+- Built the QA function from zero: wrote the test strategy, defined quality gates for each pipeline stage, hired and scaled the team, and established the standards for how tests get written, reviewed, and maintained
+- Managed a distributed QA team. Ran 1:1s, wrote performance reviews, and mentored juniors through pair-programming on Playwright scripts until they could own test areas independently
+- Owned release management: moved from ad-hoc deploys to a structured process with release checklists, cross-team sign-offs, and rollback procedures. Production incidents dropped significantly after the process was in place
+- Created an internal wiki documenting the platform's multi-party legal workflows, role hierarchies, and edge cases. Became the primary onboarding resource for both QA hires and developers joining the team
+- Built the Playwright test suite from scratch with 400+ specs covering document workflows, role-based access, and real-time collaboration. Migrated legacy Selenium tests to Playwright as browser support allowed
 - Cut the regression cycle from 6 weeks to 3 by building smoke, API, and snapshot test suites that ran automatically after every change across dev, staging, and production
-- Wrote API tests against the GraphQL and REST layers to validate data integrity, auth flows, and integration points — ran alongside the E2E suite in the GitLab CI pipeline
-- Set up quality gates on every PR and wired performance monitoring into GitLab CI with PostgreSQL-backed dashboards tracking load times, flakiness scores, and defect escape rates over time
-- Set up nightly regression runs — 400+ tests split across 7 sequential groups in GitLab CI, each group triggering the next on completion, with cross-browser coverage on Chrome, Firefox, and Safari. Results landed in Slack by morning so the team knew what broke overnight
+- Wrote API tests against the GraphQL and REST layers to validate data integrity, auth flows, and integration points. Migrated CI from GitLab to GoCD with custom pipelines for each regression group, smoke, API, snapshot tests, plus individual developer pipelines so everyone could run their own test suites without blocking others
+- Set up quality gates on every PR and wired performance monitoring into GoCD with PostgreSQL-backed dashboards tracking load times, flakiness scores, and defect escape rates over time
+- Set up nightly regression runs with 400+ tests split across 7 sequential groups in GoCD, each group triggering the next on completion, with cross-browser coverage on Chrome, Firefox, and Safari. Results landed in Slack by morning so the team knew what broke overnight
 
-### **Software Engineer** @ [Caspio Inc](https://www.caspio.com/) _(Dec 2020 - Oct 2022)_
+### **Software Engineer / QA Engineer** @ [Caspio Inc](https://www.caspio.com/) _(December 2020 - October 2022)_
 
-- Built 50+ React components for the Caspio low-code platform — form fields, data grids, layout widgets — used by 15,000+ customers to create database apps without code
-- Migrated 25,000+ lines of legacy JavaScript to TypeScript — the kind of bugs that used to slip through to QA (wrong property names, missing null checks, broken refactors) started getting caught at compile time instead
-- Wrote Selenium tests for the component library and form designer — automated regression checks that ran on every PR to catch visual and functional breakdowns across browsers
-- Set up Jest snapshot testing for the React component library — caught unintended markup and style changes before they reached QA, which mattered when 15,000+ customers depended on those components rendering consistently
-- Built integration tests for the REST APIs backing the form designer and data grid — validated CRUD operations, permission checks, and edge cases across the microservice layer so broken contracts between services got caught in CI, not in production
-- Partnered with the QA team to build out structured test plans for major releases — defined smoke, regression, and integration suites that mapped to customer-facing workflows, so we stopped relying on ad-hoc manual passes and started catching cross-service breakdowns systematically
-- Mentored 2 junior engineers over ~6 months on React component development and writing unit/integration tests with Mocha and React Testing Library — code reviews, pair-programming sessions, and gradually handing off component ownership as they ramped up
-- Brought the platform up to WCAG 2.1 AA compliance — keyboard navigation, ARIA labels, focus management, and color contrast fixes across the customer-facing components
+- Built 50+ React components for the Caspio low-code platform (form fields, data grids, layout widgets) used by 15,000+ customers to create database apps without code
+- Incrementally migrated a 10+ year old JavaScript codebase to TypeScript, module by module. Bugs that used to slip through to QA (wrong property names, missing null checks, broken refactors) started getting caught at compile time instead
+- Responsible for testing everything I built, maintaining 80%+ coverage across the stack: unit tests (Jest, Mocha), integration tests (React Testing Library), snapshot tests, API tests, and E2E tests with Selenium
+- Wrote Selenium tests for the component library and form designer. Automated regression checks that ran on every PR to catch visual and functional breakdowns across browsers
+- Set up Jest snapshot testing for the React component library. Caught unintended markup and style changes before they reached QA, since even small visual regressions affected the entire customer base
+- Built integration tests for the REST APIs backing the form designer and data grid. Validated CRUD operations, permission checks, and edge cases across the microservice layer so broken contracts between services got caught in CI, not in production
+- Partnered with the QA team to build out structured test plans for major releases. Defined smoke, regression, and integration suites that mapped to customer-facing workflows, so we stopped relying on ad-hoc manual passes and started catching cross-service breakdowns systematically
+- Mentored junior engineers on React component development and writing unit/integration tests with Mocha and React Testing Library. Code reviews, pair-programming sessions, and gradually handing off component ownership as they ramped up
+- Brought the platform up to WCAG 2.1 AA compliance: keyboard navigation, ARIA labels, focus management, and color contrast fixes across the customer-facing components
 - Cut page load times with route-level code splitting and lazy loading for the heavier components like the data grid and form designer
-- Wrote PowerShell scripts to automate dev environment setup across 16+ microservice repos — took new developer onboarding from days of manual config to one command
+- Wrote PowerShell scripts to automate dev environment setup across 16+ microservice repos. Took new developer onboarding from days of manual config to one command
 
-### **Software Engineer** @ [Vega IT](https://www.vegaitglobal.com/) _(Jun 2017 - Dec 2020)_
+### **Software Engineer / QA Engineer** @ [Vega IT](https://www.vegaitglobal.com/) _(June 2017 - December 2020)_
 
-- Led frontend on 15+ agency projects, including product launch pages for Huawei P30 Pro and Apple AirPods Pro — built in Angular and React with tight campaign deadlines
-- Built Node.js REST APIs with Express and JWT auth for 10+ client projects — when endpoints were slow, dug into PostgreSQL query plans, added indexes, and restructured joins to bring response times down
+- Led frontend on 15+ agency projects, including product launch pages for Huawei P30 Pro and Apple AirPods Pro. Built in Angular and React with tight campaign deadlines
+- Built Node.js REST APIs with Express and JWT auth for 10+ client projects. When endpoints were slow, dug into PostgreSQL query plans, added indexes, and restructured joins to bring response times down
 - Set up shared Webpack and Gulp configs, project scaffolding, and deployment scripts so every new client project started from a consistent baseline
-- Wrote Jest unit tests and Mocha integration tests across client projects — enough to catch regressions before handoffs and keep things from breaking when someone else picked up the code
-- Ran cross-browser and smoke testing as part of the handoff process — verified layouts in IE11, Edge, and Safari, and hit API endpoints with Postman to make sure nothing was quietly failing before client demos
+- Owned testing for everything I shipped: unit tests (Jest), integration tests (Mocha), API validation with Postman, and manual cross-browser E2E before every client handoff. Coverage was expected on all delivered code
+- Ran cross-browser and smoke testing as part of the handoff process. Verified layouts in IE11, Edge, and Safari, and hit API endpoints with Postman to make sure nothing was quietly failing before client demos
 - Built responsive layouts across campaign sites, including custom polyfills and fallback styles for IE11 that kept things looking right without modern CSS
 
 ---
@@ -183,7 +184,7 @@ A dashboard that monitors Playwright test failures from GoCD pipelines, spots fl
 - Set up real-time sync with Server-Sent Events for pipeline status changes, plus automatic scheduling and polling for when pipelines finish
 - Built a parser that pulls test results, errors, stack traces, and artifacts (screenshots, videos, traces) out of GoCD console output
 - Built a test dashboard that organizes 400+ tests by pipeline, folder, and file with environment filters and flaky test badges
-- Cut debugging time significantly by automating the grunt work — collecting logs, spotting patterns across runs, and generating AI-ready prompts with all the context a developer needs
+- Cut debugging time significantly by automating the grunt work: collecting logs, spotting patterns across runs, and generating AI-ready prompts with all the context a developer needs
 
 **Tech:** React, TypeScript, Fastify, Node.js, GoCD, Playwright, Zustand, TanStack Query, SSE, JWT, Google OAuth, Semantic UI, SCSS, Vite
 
@@ -194,11 +195,11 @@ A dashboard that monitors Playwright test failures from GoCD pipelines, spots fl
 A multiplayer strategy board game I built with React and Socket.IO. Players compete in real-time with turn-based mechanics, and it supports both online multiplayer and local pass-and-play (sharing one device). Runs entirely on free hosting.
 
 **Key Highlights:**
-- Built real-time multiplayer with Socket.IO — handles up to 4 players per room, recovers from disconnects, and syncs game timers to prevent cheating
+- Built real-time multiplayer with Socket.IO that handles up to 4 players per room, recovers from disconnects, and syncs game timers to prevent cheating
 - Wrote the game logic with multiple ways to win, turn-based strategy, and anti-cheat that detects tab switching or going idle
 - Set it up so the same game engine powers both online multiplayer over WebSockets and offline pass-and-play mode
 - Kept React performance tight with Zustand for state management and lazy-loading to speed up the initial load
-- Runs for free — Netlify for the frontend, Railway for the backend
+- Runs for free: Netlify for the frontend, Railway for the backend
 - Set up TypeScript, automated tests, and code quality checks to keep things clean as the codebase grew
 
 **Tech:** React, TypeScript, Socket.IO, Node.js, Express, Zustand, Tailwind CSS, Vite, Netlify, Railway
@@ -207,30 +208,30 @@ A multiplayer strategy board game I built with React and Socket.IO. Players comp
 
 ### [e2e-automated-testing](https://github.com/cvetkoS/e2e-automated-testing)
 
-The Playwright test framework I built at Legatics — 400+ specs covering authentication, document workflows, and real-time collaboration features. The app uses a GraphQL API so all test helpers hit GraphQL endpoints. Runs in parallel across 7 groups in GitLab CI.
+The Playwright test framework I built at Legatics. 400+ specs covering authentication, document workflows, and real-time collaboration features. The app uses a GraphQL API so all test helpers hit GraphQL endpoints. Runs across 7 groups in GoCD.
 
 **Key Highlights:**
 - Built 400+ test specs organized so they are easy to maintain and update as the product changes
-- Solved the hardest parts of test auth — session management, 2FA codes, AWS Cognito login flows, and automated email verification
+- Solved the hardest parts of test auth: session management, 2FA codes, AWS Cognito login flows, and automated email verification
 - Set up the CI pipeline to run tests in parallel across 7 groups with scheduling and automatic result aggregation
 - Sent smoke, snapshot, and API test results to a Slack channel so the team could spot failures quickly
 - Tests run on Chrome, Firefox, and Safari with automatic screenshots and video recordings when something fails
 
-**Tech:** Playwright, TypeScript, GitLab CI/CD, Docker, AWS Cognito, GraphQL, Jest
+**Tech:** Playwright, TypeScript, GoCD, Docker, AWS Cognito, GraphQL, Jest
 
 ---
 
 ### [ai-recruitment-platform](https://github.com/cvetkoS/ai-recruitment-platform)
 
-The Jobbrella platform — a recruitment tool I built with Next.js and GPT-3.5. Recruiters get AI-powered CV parsing, drag-and-drop hiring boards, job posting distribution, interview scheduling, and email automation. Supports Swedish and English markets.
+The Jobbrella platform, a recruitment tool I built with Next.js and GPT-3.5. Recruiters get AI-powered CV parsing, drag-and-drop hiring boards, job posting distribution, interview scheduling, and email automation. Supports Swedish and English markets.
 
 **Key Highlights:**
 - Integrated AI to automatically read and score CVs, pulling out key candidate details so recruiters can focus on the shortlist instead of reading every application
 - Built collaborative hiring board where multiple recruiters can drag candidates between stages in real-time, seeing each other's changes instantly
-- Generated thousands of lines of type-safe TypeScript API code from backend specs — saved a lot of manual API wiring
+- Generated thousands of lines of type-safe TypeScript API code from backend specs, saving a lot of manual API wiring
 - Added multi-language support for Swedish and English markets with automatic language detection based on company domain
 - Built job posting distribution that pushes listings to multiple job boards with tracking for how each one performs
-- Built the email system for candidate communication — customizable templates, attachments, and two-way conversations
+- Built the email system for candidate communication: customizable templates, attachments, and two-way conversations
 
 **Tech:** Next.js, TypeScript, React, OpenAI, Supabase, Pusher, Tailwind CSS, React Query, Vercel, Postmark
 
@@ -238,7 +239,7 @@ The Jobbrella platform — a recruitment tool I built with Next.js and GPT-3.5. 
 
 ### [mini-c-compiler](https://github.com/cvetkoS/mini-c-compiler)
 
-A compiler I built for a C-like language (MiniC) that goes all the way from source code to assembly for a custom processor. Covers the full pipeline — lexing, parsing, semantic checks, code generation — plus a CPU simulator for debugging the output.
+A compiler I built for a C-like language (MiniC) that goes all the way from source code to assembly for a custom processor. Covers the full pipeline (lexing, parsing, semantic checks, code generation) plus a CPU simulator for debugging the output.
 
 **Key Highlights:**
 - Built the full compiler pipeline: lexical analysis, parsing, semantic validation, and code generation from C-like source to executable assembly
@@ -253,12 +254,12 @@ A compiler I built for a C-like language (MiniC) that goes all the way from sour
 
 ### [datapage-engine](https://github.com/cvetkoS/datapage-engine)
 
-A framework that generates UIs from database configs — you set up your tables and it creates forms, reports, dashboards, and auth flows automatically. ASP.NET Core backend with a React frontend.
+A framework that generates UIs from database configs: you set up your tables and it creates forms, reports, dashboards, and auth flows automatically. ASP.NET Core backend with a React frontend.
 
 **Key Highlights:**
-- Built a system that generates user interfaces straight from database structures — no need to hand-code forms and reports for every table
+- Built a system that generates user interfaces straight from database structures, no need to hand-code forms and reports for every table
 - Wrote the data layer handling all CRUD operations with validation, business rules, and trigger execution built in
-- Built different form types for different workflows — adding records, viewing details, searching, signup — with conditional fields and auto-calculated values
+- Built different form types for different workflows (adding records, viewing details, searching, signup) with conditional fields and auto-calculated values
 - Created a widget system for customizing navigation, login pages, branding, and layouts through config rather than code
 - Hooked up AWS S3 for file storage and added SSO and multi-factor auth
 - Built reports that display as tables, spreadsheets, or interactive calendars with inline editing
@@ -272,11 +273,11 @@ A framework that generates UIs from database configs — you set up your tables 
 PowerShell scripts that handle the entire dev environment setup for a complex microservices platform. One command gets you 16+ repos cloned, 20+ microservices configured, IIS set up, databases (SQL Server, MySQL) migrated, Visual Studio ready, and Node.js installed.
 
 **Key Highlights:**
-- Sets up a full dev environment with one command — Visual Studio, SQL Server, Node.js, and 20+ other tools
-- Handles Git operations across all the microservice repos — pulling updates, switching branches, and flagging merge conflicts automatically
+- Sets up a full dev environment with one command: Visual Studio, SQL Server, Node.js, and 20+ other tools
+- Handles Git operations across all the microservice repos: pulling updates, switching branches, and flagging merge conflicts automatically
 - Configures IIS with SSL certificates and custom domains automatically, which used to take hours of manual setup and troubleshooting
 - Runs database migrations across both MySQL and SQL Server so all developers are working with the same schema
-- Built as a reusable PowerShell framework — good example of Windows automation and infrastructure-as-code thinking
+- Built as a reusable PowerShell framework, a good example of Windows automation and infrastructure-as-code thinking
 - Cut new developer onboarding from several days of manual setup to a few hours, and everyone ends up with the same environment
 
 **Tech:** PowerShell, DevOps, IIS, MS SQL Server, MySQL, .NET Core, Flyway, NuGet, Chocolatey
@@ -288,9 +289,9 @@ PowerShell scripts that handle the entire dev environment setup for a complex mi
 React Native app for greenhouse farmers to track plant growth with an interactive 3D plant view (kind of a digital twin). Works offline with Realm and syncs to MongoDB Atlas when you get connectivity back. Built for iOS and Android.
 
 **Key Highlights:**
-- Built an interactive 3D plant visualization with touch controls for zooming and manipulating individual nodes — gives farmers a digital twin of their crops
-- Built it offline-first so it works in greenhouses without internet — data syncs to the cloud when the connection comes back, without losing anything
-- Tracks detailed plant metrics — leaf size, stem thickness, fruit development, flowering patterns — across different growth stages
+- Built an interactive 3D plant visualization with touch controls for zooming and manipulating individual nodes, giving farmers a digital twin of their crops
+- Built it offline-first so it works in greenhouses without internet. Data syncs to the cloud when the connection comes back, without losing anything
+- Tracks detailed plant metrics (leaf size, stem thickness, fruit development, flowering patterns) across different growth stages
 - Set up measurement protocols for different crops (tomatoes, peppers, cucumbers) with forms that adapt to each plant type
 - Added undo for incorrect measurements and a history view for reviewing changes, with locked records to prevent accidental edits
 - Supports 5 languages with auth for team collaboration across farms
@@ -301,13 +302,13 @@ React Native app for greenhouse farmers to track plant growth with an interactiv
 
 ### [low-code-platform](https://github.com/cvetkoS/low-code-platform)
 
-The main Caspio platform — 5 connected apps with 17+ shared libraries. Covers visual app building, user management, role-based permissions with Row-Level Security, PDF generation, and billing.
+The main Caspio platform: 5 connected apps with 17+ shared libraries. Covers visual app building, user management, role-based permissions with Row-Level Security, PDF generation, and billing.
 
 **Key Highlights:**
 - Set up the codebase as 5 connected apps (main platform, PDF designer, billing, account settings, activity logs) with shared component libraries so code gets reused across all of them
 - Built the drag-and-drop visual designer that lets business users create database apps without writing code
 - Built the security layer with role-based permissions and Row-Level Security so users only see and edit the data they are supposed to
-- Added real-time updates with SignalR — instant notifications, live account status, and synchronized logout across browser tabs
+- Added real-time updates with SignalR: instant notifications, live account status, and synchronized logout across browser tabs
 - Built a shared React component library that kept the UI consistent and sped up building new features
 - Added i18n with 20+ translation sets and automatic language detection from browser preferences
 
