@@ -20,7 +20,7 @@ Quality engineering leader with a full-stack development background (React, Node
 location: Belgrade, Serbia
 current_role: Automation QA Software Engineer @ Sedona Digital
 focus: ['QA Leadership', 'Test Automation', 'Full-Stack Development']
-certifications: ['ISTQB Foundation 4.0', 'ISTQB Test Automation Engineering']
+certifications: ['ISTQB Foundation Level 4.0', 'ISTQB Test Automation Engineering']
 languages: ['English (Fluent - C1)', 'Serbian (Native)']
 ```
 
@@ -115,7 +115,6 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 
 ### **Software Engineer / QA Engineer** @ [Caspio Inc](https://www.caspio.com/) _(December 2020 - October 2022)_
 
-- Built 50+ React components for the Caspio low-code platform (form fields, data grids, layout widgets) used by 15,000+ customers to create database apps without code
 - Incrementally migrated a 10+ year old JavaScript codebase to TypeScript, module by module. Bugs that used to slip through to QA (wrong property names, missing null checks, broken refactors) started getting caught at compile time instead
 - Responsible for testing everything I built, maintaining 80%+ coverage across the stack: unit tests (Jest, Mocha), integration tests (React Testing Library), snapshot tests, API tests, and E2E tests with Selenium
 - Wrote Selenium tests for the component library and form designer. Automated regression checks that ran on every PR to catch visual and functional breakdowns across browsers
