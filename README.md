@@ -139,6 +139,22 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 
 ## Featured Projects
 
+### insurance-journey (Client Project · NDA)
+
+Multi-step insurance quote-and-buy journey for a client (under NDA) - a production SPA of ~70 lazy-loaded wizard screens covering the full purchase funnel: personal and vehicle details, real-time quote generation, post-quote eligibility questions, hosted card payment, and confirmation. Took over mid-project as the sole active developer and delivered it from a mocked prototype to a live, payment-integrated release.
+
+**Key Highlights:**
+- Delivered the journey end-to-end in two months as sole active developer: live rating-engine integration, 10 reference-data codelists, vehicle lookup by registration plate, postcode-based address lookup, and an 11-question post-quote eligibility flow
+- Integrated hosted-payment-page card payments with zero card-data exposure in the SPA: iframe with a postMessage result protocol, decline-code-to-copy mapping, automatic recovery on retryable failures, and purchase-state-aware confirmation UI
+- ~33k lines of TypeScript with a near 1:1 test-to-source ratio: 804 unit and component tests (95% coverage thresholds enforced in CI) plus 162 Playwright E2E tests (authored the entire E2E suite) using page objects with persistence, error-path, and mobile coverage
+- Built API contract-drift defenses for an unversioned backend: a 16-endpoint baseline corpus with a diff harness, live-backend contract tests wired as a pre-push hook, and MSW mocks kept verified against real API behavior
+- Designed PII-safe state persistence: version-keyed sessionStorage via redux-persist with payment data and API caches blacklisted, self-invalidating on deploy to prevent stale-state crashes
+- Set up CI/CD with a 4-environment build matrix (dev/qa/stage/prod), Docker + Nginx deployment, and a strict quality gate - lint, types, dead-code detection, unit and E2E tests on every change
+
+**Tech:** React, TypeScript, Redux Toolkit, RTK Query, Vite, React Hook Form, Zod, React Aria, Framer Motion, MSW, Playwright, Vitest, GitHub Actions, Docker, Nginx
+
+---
+
 ### [MacUpdaterPro](https://github.com/cvetkoS/MacUpdaterPro)
 
 Commercial macOS product I built from the ground up - a menu bar app that keeps everything on your Mac updated. Handles 100+ package managers, from Homebrew and npm to App Store apps and JetBrains IDEs. The project includes four components: the native Swift app, a Node.js API, a React admin dashboard for managing the business, and a marketing website. All running on free-tier infrastructure.
