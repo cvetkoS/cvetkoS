@@ -340,7 +340,7 @@ The website you are looking at right now. A portfolio site that generates two di
 - Connected to GitHub API to show real contribution activity, project stats, and coding languages I actually use - updates automatically
 - Built an interactive personality chart showing my work style assessment results, so employers can see how I fit into teams
 - Designed so editing my experience in one file instantly updates the website, both PDF versions, and keeps everything in sync
-- Mobile users get the ATS version automatically since recruiters typically review on desktop anyway
+- Generates two PDF variants from the same data source: a designed version for people and an ATS-optimized version for applicant tracking systems
 
 **Tech:** React, TypeScript, SCSS, Vite, @react-pdf/renderer, GitHub Actions, Netlify
 
