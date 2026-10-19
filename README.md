@@ -14,11 +14,11 @@
 
 ## About Me
 
-Quality engineering leader with a full-stack development background (React, Node.js, TypeScript) spanning web, mobile, and native platforms. Built a QA function from scratch: authored the test strategy, hired and scaled a distributed team, grew a Playwright suite to 400+ specs, and cut the regression cycle in half. The kind of engineer who builds QA practices, not just test suites, and ships real products on the side: Mac Updater Pro (native macOS, 70K lines of code) and Invoicr (AI-powered invoicing). ISTQB certified.
+Quality engineering leader with a full-stack development background (React, Node.js, TypeScript) spanning web, mobile, and native platforms. Currently a senior frontend engineer at The AA Ireland, working on their insurance and car service journeys. Built a QA function from scratch: authored the test strategy, hired and scaled a distributed team, grew a Playwright suite to 400+ specs, and cut the regression cycle in half. The kind of engineer who builds QA practices, not just test suites, and ships real products on the side: Mac Updater Pro (native macOS, 70K lines of code) and Invoicr (AI-powered invoicing). ISTQB certified.
 
 ```yaml
 location: Belgrade, Serbia
-current_role: Automation QA Software Engineer @ Sedona Digital
+current_role: Senior Frontend Engineer @ The AA Ireland
 focus: ['QA Leadership', 'Test Automation', 'Full-Stack Development']
 certifications: ['ISTQB Foundation Level 4.0', 'ISTQB Test Automation Engineering']
 languages: ['English (Fluent - C1)', 'Serbian (Native)']
@@ -57,6 +57,9 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
+![WooCommerce](https://img.shields.io/badge/WooCommerce-96588A?style=for-the-badge&logo=woocommerce&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST-02569B?style=for-the-badge&logo=rest&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
@@ -93,13 +96,30 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 
 ## Professional Experience
 
-### **Automation QA Software Engineer** @ [Sedona Digital](https://faptic.com) _(Feb 2026 - Present)_
+### **Senior Frontend Engineer** @ [The AA Ireland](https://www.theaa.ie) _(May 2026 - Present)_
 
-- Building a Playwright and Selenium framework for an SAP-based insurance policy system. The main challenge is nested frame architecture that needs custom frame helpers, plus NTLM domain auth
-- Writing test specs covering policy servicing, beneficiary management, commission validation, and medical exclusion workflows
-- Set up Page Object Model with worker-scoped fixtures, action helpers, and direct SQL Server and PostgreSQL queries for pulling test data dynamically across UAT and DEV
-- Added API testing for REST endpoints across multiple environments, validating data contracts and integration points between SAP modules
-- Built a custom Xray reporter for Jira and set up the code quality tooling: Husky pre-commit hooks, strict TypeScript, ESLint, Prettier, Knip for dead code
+- Picked up the van insurance journey while it was still a prototype running on mock data and took the frontend through to launch. Two months later it was live with real quotes, vehicle and address lookup, and online card payment
+- Added 24 new screens to the van journey, including a post-quote eligibility flow that sends unusual cases to the call centre, and redesigned the quote page to show member and non-member prices side by side
+- Set up analytics for the van journey, with Amplitude running through Google Tag Manager and respecting cookie consent. After launch, wrote daily funnel reports so the business could see where people were dropping off
+- Covered the van journey with 1,000+ unit tests and around 200 Playwright E2E tests, and set up the same pre-merge checks (lint, types, dead code, coverage, dependency audit, secrets scan) across the other React repos
+- Worked on the Verisk medical screening integration for travel insurance, from the first investigation to the build. Customers with a medical condition used to be told to phone in; now they answer the screening questions inside the journey and the result is priced into their quote
+- Built the screening as a WordPress plugin in PHP. The hard part was keeping health data safe: risk scores never reach the browser, records get deleted on a schedule for GDPR, and staff only see medical answers after the customer reads them a one-time code
+- Wrote the release scripts for the travel go-live: one command deploys to WordPress, n8n, and Gravity Forms in stages, backs everything up first, and rolls back on its own if a check fails
+- Joined the car service booking journey right after it went live and handled the frontend for the post-launch work: rewrote the booking steps, fixed member pricing and a blank screen on iOS 14, and grew the test suite from about 80 tests to 350
+- Also worked on the car insurance journey: a new registered-owner step, member discount pricing, the hand-off from the van journey with details already filled in, and fixes for errors showing up in Sentry
+- Built a new React version of the travel quote journey alongside the live one, with tests proving it sends exactly the same quotes as the current site
+
+### **QA Automation Engineer (Consultant)** @ [Sedona Digital](https://faptic.com) _(Feb 2026 - Present)_
+
+- Building a Playwright and Selenium framework for an SAP-based insurance policy system. The main challenge is a nested frame layout that needs custom frame helpers, plus NTLM domain auth
+- Writing specs for policy servicing, beneficiary management, commission validation, and medical exclusion workflows, with page objects, worker-scoped fixtures, and test data pulled live from SQL Server and PostgreSQL across UAT and DEV
+- Added REST API tests across environments, a custom Xray reporter so results land in Jira, and the code quality tooling: strict TypeScript, ESLint, Prettier, Knip, and Husky hooks
+- For a marine insurer, building test automation across three systems: a web claims app, a legacy desktop underwriting app, and the data warehouse behind them
+- The desktop app runs as a remote window with no DOM or accessibility tree, so it is automated through screenshots, Tesseract OCR, and nut.js clicks. Keystrokes only go out when the right window is in front, so unattended runs on a shared VM never type into anything else
+- Kept overnight desktop runs alive with scheduled keep-alive and watcher tasks that clear idle and upgrade pop-ups, and wrote an OCR check that reads the generated cover note and invoice back to confirm the policy details
+- Wrote Playwright tests for the claims journey, from claim creation and reserves to payment and the finance and director sign-off, with each business role in its own browser context and cached login
+- Built a data warehouse quality suite on Playwright with a small Trino REST client, checking schema, freshness, and key integrity across the star schema. A read-only SQL guard makes sure the suite can never change production data
+- Set up GitHub Actions on self-hosted Azure VM runners: weekday-only scheduled runs (UAT is off at weekends), one run at a time per environment, Teams alerts, and a repeat-each option for chasing flaky tests
 
 ### **QA Engineering Manager** @ [Legatics](https://www.legatics.com/) _(October 2022 - Jan 2026)_
 
@@ -139,19 +159,97 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 
 ## Featured Projects
 
-### insurance-journey (Client Project · NDA)
+### van-insurance-journey (Client Project · NDA)
 
-Multi-step insurance quote-and-buy journey for a client (under NDA) - a production SPA of ~70 lazy-loaded wizard screens covering the full purchase funnel: personal and vehicle details, real-time quote generation, post-quote eligibility questions, hosted card payment, and confirmation. Took over mid-project as the sole active developer and delivered it from a mocked prototype to a live, payment-integrated release.
+Quote-and-buy journey for commercial van insurance (client under NDA): a production SPA of 69 lazy-loaded screens covering vehicle and business details, live quote generation, membership cross-sell, post-quote eligibility, hosted card payment, and confirmation. Picked it up as a mocked prototype, took the frontend to a live, payment-integrated release in two months, then kept extending it in production.
 
 **Key Highlights:**
-- Delivered the journey end-to-end in two months as sole active developer: live rating-engine integration, 10 reference-data codelists, vehicle lookup by registration plate, postcode-based address lookup, and an 11-question post-quote eligibility flow
-- Integrated hosted-payment-page card payments with zero card-data exposure in the SPA: iframe with a postMessage result protocol, decline-code-to-copy mapping, automatic recovery on retryable failures, and purchase-state-aware confirmation UI
-- ~33k lines of TypeScript with a near 1:1 test-to-source ratio: 804 unit and component tests (95% coverage thresholds enforced in CI) plus 162 Playwright E2E tests (authored the entire E2E suite) using page objects with persistence, error-path, and mobile coverage
-- Built API contract-drift defenses for an unversioned backend: a 16-endpoint baseline corpus with a diff harness, live-backend contract tests wired as a pre-push hook, and MSW mocks kept verified against real API behavior
-- Designed PII-safe state persistence: version-keyed sessionStorage via redux-persist with payment data and API caches blacklisted, self-invalidating on deploy to prevent stale-state crashes
-- Set up CI/CD with a 4-environment build matrix (dev/qa/stage/prod), Docker + Nginx deployment, and a strict quality gate - lint, types, dead-code detection, unit and E2E tests on every change
+- Took the journey from mocks to a live release in two months: live insurance-gateway integration with 11 reference-data codelists, vehicle lookup by registration plate, address lookup, and quote create, update, and finalise across 25 API endpoints
+- Added 24 screens, including a business-policyholder branch and a 17-question post-quote eligibility flow with referral routing, and redesigned quote results around membership cross-sell with tier cards, a cumulative membership ladder, and a price breakdown
+- Integrated hosted-payment-page card payments with zero card data in the SPA: iframe with a source-validated postMessage protocol, 3DS reload, and decline-code handling. Added a branded one-page quote PDF with @react-pdf/renderer
+- Built the analytics layer: Amplitude through Google Tag Manager gated by cookie consent, 35 typed funnel events, a delivery queue with backend logging that survives page unloads, and daily funnel reports on where customers dropped out
+- ~41k lines of TypeScript, more than half of it tests: 1,077 unit and component tests behind 95% coverage thresholds (98.8% lines measured) and ~210 Playwright E2E tests using page objects
+- Set up a 12-step quality gate (zero-warning lint, types, Knip dead-code checks, coverage, dependency audit, secrets scan, build) with a pre-push contract test against the live backend, and hardened production with CSP and frame headers, crash-proof session storage, and state resets between quotes
 
-**Tech:** React, TypeScript, Redux Toolkit, RTK Query, Vite, React Hook Form, Zod, React Aria, Framer Motion, MSW, Playwright, Vitest, GitHub Actions, Docker, Nginx
+**Tech:** React, TypeScript, Redux Toolkit, RTK Query, React Router, Vite, React Hook Form, Zod, React Aria, Framer Motion, @react-pdf/renderer, Amplitude, Google Tag Manager, MSW, Playwright, Vitest, Knip, pnpm, GitHub Actions, Docker, Nginx
+
+---
+
+### medical-screening-integration (Client Project · NDA)
+
+Medical screening for travel insurance (client under NDA): customers declaring a pre-existing condition complete a third-party screening widget inside the journey, and the resulting risk score prices the quote. Replaced an offline phone process. Worked on the investigation, architecture, and build across WordPress, WooCommerce, the workflow engine, policy documents, renewals, and the production release.
+
+**Key Highlights:**
+- Mapped the whole quote chain across 10 repositories and found the medical questions sat after pricing, so they could never affect the price. Moved them ahead of the quote and proved the rating engine could accept a score with a two-line patch
+- Wrote the PHP plugin (~8k lines plus ~8k lines of tests): a server-side token broker, server-side verification of sealed screening results matched against the vendor reference implementation, and risk scores kept server-to-server only
+- Extended it to multi-traveller screening priced on the highest risk score with automatic declines, verified across 3 browser engines and 8 screen sizes (120 of 120 walk cells clean, 97% statement coverage)
+- Designed GDPR handling for health data: encrypted per-traveller storage, minimal logging, sale-linked retention with automatic purging, and staff access to medical answers gated by a one-time code sent to the policyholder
+- Diagnosed a long-running quote integration failure that had been misattributed to network blocking, and hardened the quote, checkout, and document flows with regression tests and CI added to five previously untested repos
+- Built a one-command production release toolkit (~26k lines of Bash, Python, PHP, and Node, plus a 1,900-line runbook): staged deploys with backups, verification, and automatic rollback, and CI drift checks between live workflows, forms, and git
+
+**Tech:** PHP, WordPress, WooCommerce, MySQL, n8n, OAuth, JavaScript, Python, Bash, Playwright, GitHub Actions
+
+---
+
+### travel-insurance-journey (Client Project · NDA)
+
+React rebuild of a travel insurance quote journey (client under NDA): trip type, destinations, travellers, eligibility, in-journey medical screening, declarations, and tiered quote results for annual, single-trip, and backpacker cover. Built from discovery through to parity with the live journey, verified against the real pricing backend.
+
+**Key Highlights:**
+- Built 7 screens on React 19 with the React Compiler, Redux Toolkit, and RTK Query, with a route guard that works out the furthest step a customer may reach and quotes cleared automatically whenever an answer that affects price changes
+- 1,101 unit tests at 97% statement coverage, including a 528-case matrix proving the app sends the same quote request as the existing workflow for every trip, destination, and party combination
+- 30 Playwright E2E tests plus a live suite against the real staging pricing API on desktop and mobile with zero console errors, and axe accessibility checks in both unit and E2E tests
+- Contract tests that fail when mock fixtures drift from the live gateway (proven by mutation testing) and a 13-step quality gate covering env parity, dead code, coverage, dependency audit, and secrets
+- Before writing code, documented the existing system in 16 discovery reports (SOAP rating contract, five WordPress plugins, workflow orchestration, the legacy Angular app) and ran design and flow parity audits against the design system and the live journey
+
+**Tech:** React, TypeScript, Redux Toolkit, RTK Query, React Router, React Hook Form, React Aria, Vite, SCSS, MSW, Vitest, Playwright, axe-core, Knip, pnpm
+
+---
+
+### car-service-booking (Client Project · NDA)
+
+Online car service booking journey (client under NDA): vehicle lookup, contact and address details, service selection with member pricing, drop-off date and time, and booking confirmation against a garage management system. Joined after go-live and handled the frontend through the post-launch programme.
+
+**Key Highlights:**
+- Over six weeks after go-live (19 PRs), rewrote the five step pages, folded the confirm screen into the date step, and removed 20 Storybook files, 11 unused components, and 8 runtime dependencies
+- Fixed booking correctness: drop-off times taken from the backend (hardcoded labels could book the wrong slot), member prices from the garage system instead of an in-browser discount, guarded booking completion, and 11 of 12 post-launch review defects
+- Grew unit tests from ~77 to ~350 and Playwright E2E from 11 to ~50 across three browser projects, with the coverage floor ratcheted up to 70% from a 19% start
+- Fixed a blank journey on iOS 14 by lowering the build target and adding a gate that parses every built chunk as ES2021, plus blank pages on refresh and deep links caused by navigation during render
+- Fixed analytics so member status and journey context reach every screen, stripped personal data from tracking, added journey logging to Azure Application Insights, and moved the CSP to Nginx so tag vendors were no longer blocked
+- Added a 13-gate quality pipeline and a scheduled GitHub Action that checks the live API against mock fixtures and opens an issue when it drifts
+
+**Tech:** React, TypeScript, Vite, React Router, TanStack Query, Zustand, Zod, React Hook Form, Tailwind CSS, SCSS, MSW, Jest, Playwright, Knip, Azure Application Insights, Google Tag Manager, Docker, Nginx, GitHub Actions
+
+---
+
+### insurance-test-automation-platform (Client Project · NDA)
+
+Test automation for a marine insurer (client under NDA) across three very different systems: a web claims app, a legacy desktop underwriting app with no DOM, and the data warehouse behind them. Three repos, about 17k lines of code, running unattended on self-hosted CI.
+
+**Key Highlights:**
+- Automated a legacy desktop underwriting app streamed as a remote window with no accessible UI tree, using nut.js input, Tesseract OCR, and PowerShell window control, with display scaling worked out at runtime
+- A guarded input layer only sends a keystroke when the expected window and session are in front, so unattended runs on a shared VM can never type into another app
+- Underwriting runs that create an agreement and work through parties, clauses, certificates, premium, and documents, plus an OCR check on the generated cover note, invoice, and commission note, and a read-only crawler that maps all 139 menu items
+- Claims tests on the web app with multi-role fixtures: each role gets an isolated browser context and cached login, so one test can take a claim through finance and director sign-off without logging in again
+- Warehouse checks run on Playwright as a plain test runner over a hand-written Trino REST client: schema contracts, freshness, row counts, and primary and foreign key integrity across 30 gold tables
+- The warehouse suite queries live production tables, so a read-only SQL guard blocks writes and is tested against 19 write and bypass patterns. Excel evidence exports neutralise formula injection and pseudonymise personal data
+
+**Tech:** Playwright, TypeScript, Node.js, nut.js, Tesseract OCR, PowerShell, Trino, GitHub Actions, Knip, ESLint
+
+---
+
+### sap-policy-test-framework (Client Project · NDA)
+
+Playwright framework for an SAP-based insurance policy system (client under NDA). The UI is built from nested frames and sits behind NTLM domain auth, so the framework wraps both in helpers to keep the specs readable.
+
+**Key Highlights:**
+- Custom frame helpers that reach elements through several levels of nested frames, with NTLM domain auth handled once in config
+- 79 specs covering policy servicing, beneficiary management, commission validation, and medical exclusion workflows
+- Page objects with worker-scoped fixtures and action helpers, with test data pulled live from the database so the same specs run on UAT and DEV
+- REST API tests across environments that check data contracts between SAP modules
+- A custom Xray reporter that pushes results into Jira, and a quality gate with strict TypeScript, ESLint, Prettier, Knip, and Husky hooks
+
+**Tech:** Playwright, Selenium, TypeScript, MS SQL Server, PostgreSQL, Jira Xray, ESLint, Knip
 
 ---
 
@@ -348,6 +446,7 @@ The website you are looking at right now. A portfolio site that generates two di
 
 ## What I'm Currently Working On
 
+- Owning **insurance and booking journeys** as Senior Frontend Engineer at The AA Ireland
 - Building **Playwright automation** for SAP-based insurance systems at Sedona Digital
 - Maintaining and improving **Mac Updater Pro** (commercial macOS product)
 - Developing **Invoicr** (AI-powered invoicing platform)
