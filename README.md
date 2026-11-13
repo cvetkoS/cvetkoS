@@ -14,7 +14,7 @@
 
 ## About Me
 
-Quality engineering leader with a full-stack development background (React, Node.js, TypeScript) spanning web, mobile, and native platforms. Built a QA function from scratch: authored the test strategy, hired and scaled a distributed team, grew a Playwright suite to 400+ specs, and cut the regression cycle in half. The kind of engineer who builds QA practices, not just test suites, and ships real products on the side: Mac Updater Pro (native macOS, 70K lines of code) and Invoicr (AI-powered invoicing). ISTQB certified.
+Software engineer with a full-stack background (React, Node.js, TypeScript) across web, mobile and native apps, and three years running QA as an engineering manager. At Legatics I built the QA function from scratch: wrote the test strategy, hired a distributed team, grew the Playwright suite to 400+ specs and cut the regression cycle in half. On the side I build and run my own products: Invoicr (AI invoicing), Fioka (family documents), and Kurirko (route planning for couriers). ISTQB certified.
 
 ```yaml
 location: Belgrade, Serbia
@@ -32,14 +32,13 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Assembly](https://img.shields.io/badge/Assembly-654FF0?style=for-the-badge&logo=assemblyscript&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
 
 ### Frontend Development
 
@@ -52,7 +51,6 @@ languages: ['English (Fluent - C1)', 'Serbian (Native)']
 ### Mobile & Native Development
 
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-FA7343?style=for-the-badge&logo=swift&logoColor=white)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
 
 ### Backend & APIs
@@ -121,7 +119,7 @@ Test Strategy & Planning • Release Management • Agile/Scrum • Team Leaders
 
 - Built the QA function from zero: wrote the test strategy, defined quality gates for each pipeline stage, hired and scaled the team, and established the standards for how tests get written, reviewed, and maintained
 - Managed a distributed QA team. Ran 1:1s, wrote performance reviews, and mentored juniors through pair-programming on Playwright scripts until they could own test areas independently
-- Owned release management: moved from ad-hoc deploys to a structured process with release checklists, cross-team sign-offs, and rollback procedures. Production incidents dropped significantly after the process was in place
+- Owned release management: moved from ad-hoc deploys to a structured process with release checklists, cross-team sign-offs, and rollback procedures. Production incidents dropped noticeably once the process was in place
 - Created an internal wiki documenting the platform's multi-party legal workflows, role hierarchies, and edge cases. Became the primary onboarding resource for both QA hires and developers joining the team
 - Built the Playwright test suite from scratch with 400+ specs covering document workflows, role-based access, and real-time collaboration. Migrated legacy Selenium tests to Playwright as browser support allowed
 - Cut the regression cycle from 6 weeks to 3 by building smoke, API, and snapshot test suites that ran automatically after every change across dev, staging, and production
@@ -157,49 +155,32 @@ Test Strategy & Planning • Release Management • Agile/Scrum • Team Leaders
 
 ### [invoicr](https://invoicr.org)
 
-AI-powered invoicing platform I built for freelancers. Handles the entire billing workflow - from creating invoices and tracking time to generating contracts with AI and collecting payments through Stripe. The interesting part is the AI integration: upload a PDF or photo of a business card and it extracts all the client details automatically. Same with receipts for expense tracking.
+AI invoicing app for freelancers that I built and run. It covers the whole billing flow, from invoices and time tracking to AI-written contracts and Stripe payments. My favourite part is the document reading: upload a PDF or a photo of a business card and it fills in the client details, and it does the same for receipts.
 
 **Key Highlights:**
-- Built 3 connected web applications: the main invoicing app, an admin dashboard, and a marketing website - all sharing types through a TypeScript monorepo
-- Integrated Claude AI for document extraction that reads PDFs, images, and business cards to automatically fill in client information - no manual data entry needed
-- Created 97 serverless API endpoints handling everything from invoice generation to Stripe webhooks, AI processing, and OAuth authentication
-- Implemented AI-powered proposal and contract generation - describe a project and get a professional document ready to send
-- Added receipt scanning that uses AI to extract expense details from photos, categorize spending, and track business costs
-- Set up Stripe Connect for payment processing with automatic invoice status updates via webhooks
-- Runs on free infrastructure: Netlify hosting, Turso database, Cloudflare R2 storage, Resend emails - $0 monthly costs
+- Built the invoicing app and its marketing website in one TypeScript monorepo with shared types
+- Claude reads PDFs, images and business cards and fills in the client details, so nobody types them in by hand
+- 97 serverless endpoints on Netlify Functions, from invoice generation to Stripe webhooks and OAuth sign-in
+- Describe a project and it drafts a proposal or a contract ready to send
+- Receipt scanning pulls the amount and category out of a photo for expense tracking
+- Stripe Connect for payments, with invoices marked paid automatically from webhooks
+- Runs on free tiers (Netlify, Turso, Cloudflare R2 and Resend), so it costs nothing per month
 
 **Tech:** React, TypeScript, JavaScript, Vite, Zustand, Netlify Functions, Turso, Anthropic Claude, Stripe, Resend, Cloudflare R2, React Email, JWT, OAuth
 
 ---
 
-### [MacUpdaterPro](https://macupdaterpro.app)
-
-Commercial macOS product I built from the ground up - a menu bar app that keeps everything on your Mac updated. Handles 100+ package managers, from Homebrew and npm to App Store apps and JetBrains IDEs. The project includes four components: the native Swift app, a Node.js API, a React admin dashboard for managing the business, and a marketing website. All running on free-tier infrastructure.
-
-**Key Highlights:**
-- Wrote the entire codebase myself - about 70K lines across Swift (native app), TypeScript/React (admin dashboard and website), and Node.js (serverless API)
-- Built a complete business system: Stripe payments, license key generation with checksums, machine activation tracking, email campaigns for expiring trials, and a testimonial collection system
-- Created a 9-tab admin dashboard covering everything I need to run the product: error reports, analytics, payments, user management, email templates, feature requests, testimonials, blocked clients, and website stats
-- Detects updates across 100+ sources - Homebrew, npm, pip, Cargo, App Store, Sparkle apps, JetBrains IDEs, Docker, and cloud CLIs. Some update directly, others open the appropriate app (like App Store) for the user to complete
-- Built a world map in the admin dashboard with Mapbox showing where users download the app from, with country/city breakdowns and filtering by continent or top countries
-- Implemented proper crash reporting with signal handlers, automatic error submission, and a resolution workflow so I can actually fix issues users encounter
-- Runs entirely on free tiers: Netlify for hosting, Turso for the database, Cloudflare R2 for DMG storage, Resend for emails. Zero monthly infrastructure costs
-
-**Tech:** Swift, SwiftUI, React, TypeScript, JavaScript, Node.js, Netlify Functions, Turso, Stripe, Resend, Zustand, SCSS, Vite, Bash, Cloudflare R2, Mapbox
-
----
-
 ### [fioka](https://fiokaapp.com)
 
-Family document app for Serbian households that I built on my own in three weeks. It keeps receipts, warranties, contracts, and medical papers on the phone, works offline as an installable web app, and syncs encrypted documents between family members once you sign in. Live as an invite-only beta with paid AI features through Stripe.
+Family document app for Serbian households that I built on my own in three weeks. It keeps receipts, warranties, contracts and medical papers on the phone, works offline, and shares documents with the rest of the family once you sign in. It is live as an invite-only beta.
 
 **Key Highlights:**
-- Works fully on the phone without an account, then adds shared family storage after sign-in. Documents are encrypted on the device with AES-GCM before they sync, and the family key is protected by an Argon2id passphrase, so the server only stores ciphertext
-- Reads receipts and warranties on the phone with self-hosted Tesseract OCR for English and Serbian, so documents are not uploaded just to be read
-- AI helpers on Claude that explain contracts and medical reports, cite the page each point comes from, and turn deadlines into reminders
-- Paid AI features through Stripe Checkout with 4 token packs, so families pay only for the AI reading they use, with refunds and disputes handled by the webhook
-- Mapped paid parking zones for 65 Serbian cities, so the app picks the zone from your location and opens the parking SMS ready to send
-- 74 serverless endpoints and 6 scheduled jobs on Netlify Functions with a Turso database, covered by 4,577 unit tests that CI runs on every pull request
+- Works without an account. Once a family signs in, documents are encrypted on the phone before they sync, so the server only holds ciphertext
+- Reads receipts and warranties on the phone with Tesseract OCR in English and Serbian
+- AI helpers on Claude explain contracts and medical reports, point to the page each answer comes from, and turn deadlines into reminders
+- Paid AI features go through Stripe as token packs, so a family only pays for what it uses
+- Knows the paid parking zones in Serbian cities, picks the right one from your location and opens the parking SMS ready to send
+- Backend on Netlify Functions with a Turso database, with unit tests running in CI on every pull request
 
 **Tech:** React, TypeScript, Vite, React Router, Zustand, Zod, Tailwind CSS, Dexie, i18next, Netlify Functions, Turso, Cloudflare R2, Stripe, Resend, Anthropic Claude, Google Gemini, Tesseract OCR, Vitest, Playwright, GitHub Actions
 
@@ -207,15 +188,14 @@ Family document app for Serbian households that I built on my own in three weeks
 
 ### [kurirko](https://kurirko.app)
 
-Phone app for couriers in Serbia: photograph the parcel list for the day and it reads the addresses, puts them on a map, and plans the fastest route with turn-by-turn guidance. Live with Stripe subscriptions in Serbian dinars and a free trial that needs no card.
+Phone app for couriers in Serbia. Photograph the parcel list for the day and it reads the addresses, puts them on a map and plans the fastest route with turn-by-turn guidance. Live with Stripe subscriptions in Serbian dinars and a free trial that needs no card.
 
 **Key Highlights:**
-- Went from first commit to a live paid product in six days, with Basic and Full monthly plans billed in dinars through Stripe
-- Reads photographed parcel lists on the phone first with Tesseract and pdf.js, and only calls Claude for pages that are hard to read, under a monthly AI budget per plan
-- The route optimiser runs in a Web Worker in the browser (2-opt and Or-opt with time windows), so a courier can re-plan mid-route without waiting on a server
-- Maps with MapLibre and OpenFreeMap, plus a private OSRM and Photon routing server for Serbia that rebuilds weekly from OpenStreetMap and rolls back if the new data fails a check
-- A separate admin app behind an IP allowlist for revenue, users, refunds, and editing the bilingual emails without a deploy
-- 32 Netlify Functions on a Turso database, and a CI check that replays 14 photographed pages and 3 recorded GPS drives on every push
+- Went from first commit to a live paid product in six days
+- Reads the photographed lists on the phone first with Tesseract and pdf.js, and only sends hard-to-read pages to Claude, within a monthly AI budget per plan
+- The route optimiser runs in a Web Worker in the browser, so a courier can re-plan mid-route around delivery windows without waiting on a server
+- Maps with MapLibre, plus a self-hosted OSRM and Photon routing server for Serbia that rebuilds weekly from OpenStreetMap and rolls back if the new data fails a check
+- CI replays real photographed pages and recorded GPS drives on every push
 
 **Tech:** React, TypeScript, Vite, React Router, Zustand, Tailwind CSS, Dexie, i18next, MapLibre, OSRM, Tesseract OCR, Netlify Functions, Turso, Stripe, Resend, Anthropic Claude, Docker, GitHub Actions
 
@@ -223,15 +203,14 @@ Phone app for couriers in Serbia: photograph the parcel list for the day and it 
 
 ### pamto
 
-Car maintenance companion for everyday drivers in Serbia. Add a car by photographing the registration card, and it builds the service schedule from the factory manual, asks for mileage once a week, and reminds you before something is due. An Expo app for iOS and Android plus an installable web app that share one TypeScript core.
+Car maintenance app for drivers in Serbia. You add a car by photographing the registration card, and it builds the service schedule from the factory manual, asks for your mileage once a week and reminds you before something is due. One TypeScript core runs both the Expo app for iOS and Android and the installable web app.
 
 **Key Highlights:**
-- Built two clients on one TypeScript core and schedule engine: an Expo app for iOS and Android and an installable web app, both in Serbian and English
-- Two AI models read each car factory service manual, and where they disagree the plan keeps the shorter interval, so reminders stay on the safe side
-- Adding a car is one photo: the registration card is read on the phone, and a shared parser copes with Cyrillic, Latin, and look-alike letters
-- Offline-first: each device keeps its own SQLite database and syncs with a Turso backend through push and pull, behind 40 server migrations
-- 66 API routes and 9 scheduled jobs on Netlify Functions covering email sign-in, household sharing, reminders, and app store and web billing
-- 7,916 automated test cases and 379 Maestro phone flows, because the reminder logic decides when someone services their car
+- Two AI models read the factory service manual for each car, and where they disagree the schedule keeps the shorter interval, so reminders err on the safe side
+- Adding a car is one photo. The registration card is read on the phone, and the parser copes with Cyrillic, Latin and letters that look alike
+- Works offline. Each phone keeps its own SQLite database and syncs with a Turso backend
+- The backend on Netlify Functions handles email sign-in, household sharing, reminders, and billing through the app stores and Stripe
+- The schedule engine has property-based tests and the main screens have Maestro flows, because the reminders decide when someone takes their car in
 
 **Tech:** React Native, Expo, React, TypeScript, Vite, SQLite, Drizzle ORM, Netlify Functions, Turso, Stripe, RevenueCat, Resend, Anthropic Claude, Google Gemini, Cloudflare R2, Tesseract OCR, Sentry, Jest, Vitest, Maestro, Playwright
 
@@ -239,15 +218,15 @@ Car maintenance companion for everyday drivers in Serbia. Add a car by photograp
 
 ### van-insurance-journey (Client Project · NDA)
 
-Quote-and-buy journey for commercial van insurance (client under NDA): a production SPA of 69 lazy-loaded screens covering vehicle and business details, live quote generation, membership cross-sell, post-quote eligibility, hosted card payment, and confirmation. Picked it up as a mocked prototype, took the frontend to a live, payment-integrated release in two months, then kept extending it in production.
+Quote-and-buy journey for commercial van insurance (client under NDA), from vehicle and business details through live quotes, eligibility questions and card payment. I picked it up as a prototype running on mock data, got it live with payments in two months and kept working on it in production.
 
 **Key Highlights:**
-- Took the journey from mocks to a live release in two months: live insurance-gateway integration with 11 reference-data codelists, vehicle lookup by registration plate, address lookup, and quote create, update, and finalise across 25 API endpoints
-- Added 24 screens, including a business-policyholder branch and a 17-question post-quote eligibility flow with referral routing, and redesigned quote results around membership cross-sell with tier cards, a cumulative membership ladder, and a price breakdown
-- Integrated hosted-payment-page card payments with zero card data in the SPA: iframe with a source-validated postMessage protocol, 3DS reload, and decline-code handling. Added a branded one-page quote PDF with @react-pdf/renderer
-- Built the analytics layer: Amplitude through Google Tag Manager gated by cookie consent, 35 typed funnel events, a delivery queue with backend logging that survives page unloads, and daily funnel reports on where customers dropped out
-- ~41k lines of TypeScript, more than half of it tests: 1,077 unit and component tests behind 95% coverage thresholds (98.8% lines measured) and ~210 Playwright E2E tests using page objects
-- Set up a 12-step quality gate (zero-warning lint, types, Knip dead-code checks, coverage, dependency audit, secrets scan, build) with a pre-push contract test against the live backend, and hardened production with CSP and frame headers, crash-proof session storage, and state resets between quotes
+- Connected the prototype to the live insurance gateway for reference data, vehicle lookup by registration plate, address search, and creating and finalising quotes
+- Added the business policyholder branch and the post-quote eligibility questions, which send unusual cases to the call centre
+- Reworked the quote page to show member and non-member prices side by side
+- Built card payment on the hosted payment page in an iframe, so card details never touch the app. 3DS and declined cards are handled, and customers can download a one-page quote PDF
+- Set up analytics with Amplitude through Google Tag Manager behind cookie consent, then used the funnel to see where people dropped out after launch
+- Wrote the whole Playwright E2E suite and most of the unit tests, with coverage thresholds in CI and a pre-push check against the live backend
 
 **Tech:** React, TypeScript, Redux Toolkit, RTK Query, React Router, Vite, React Hook Form, Zod, React Aria, Framer Motion, @react-pdf/renderer, Amplitude, Google Tag Manager, MSW, Playwright, Vitest, Knip, pnpm, GitHub Actions, Docker, Nginx
 
@@ -255,15 +234,15 @@ Quote-and-buy journey for commercial van insurance (client under NDA): a product
 
 ### medical-screening-integration (Client Project · NDA)
 
-Medical screening for travel insurance (client under NDA): customers declaring a pre-existing condition complete a third-party screening widget inside the journey, and the resulting risk score prices the quote. Replaced an offline phone process. Worked on the investigation, architecture, and build across WordPress, WooCommerce, the workflow engine, policy documents, renewals, and the production release.
+Medical screening for travel insurance (client under NDA). Customers with a pre-existing condition used to be told to phone in. Now they answer the screening questions inside the journey and the result is priced into their quote. I did the investigation, the design and most of the build.
 
 **Key Highlights:**
-- Mapped the whole quote chain across 10 repositories and found the medical questions sat after pricing, so they could never affect the price. Moved them ahead of the quote and proved the rating engine could accept a score with a two-line patch
-- Wrote the PHP plugin (~8k lines plus ~8k lines of tests): a server-side token broker, server-side verification of sealed screening results matched against the vendor reference implementation, and risk scores kept server-to-server only
-- Extended it to multi-traveller screening priced on the highest risk score with automatic declines, verified across 3 browser engines and 8 screen sizes (120 of 120 walk cells clean, 97% statement coverage)
-- Designed GDPR handling for health data: encrypted per-traveller storage, minimal logging, sale-linked retention with automatic purging, and staff access to medical answers gated by a one-time code sent to the policyholder
-- Diagnosed a long-running quote integration failure that had been misattributed to network blocking, and hardened the quote, checkout, and document flows with regression tests and CI added to five previously untested repos
-- Built a one-command production release toolkit (~26k lines of Bash, Python, PHP, and Node, plus a 1,900-line runbook): staged deploys with backups, verification, and automatic rollback, and CI drift checks between live workflows, forms, and git
+- Traced the quote flow across about ten repositories and found the medical questions came after the price was already set. Moving them in front of the quote is what made the rest possible
+- Wrote the WordPress plugin in PHP. Results are checked on the server and the risk score never reaches the browser
+- Added screening for each traveller on a policy, priced on the highest risk, and tested it in Chromium, WebKit and Firefox at phone, tablet and desktop sizes
+- Health data is stored encrypted per traveller and deleted on a schedule. Staff only see medical answers after the customer reads them a one-time code
+- Tracked down a quote failure that had been blamed on network blocking for weeks, and tightened the quote, checkout and document flows along the way
+- Wrote the release scripts, which deploy in stages, take a backup first and roll back by themselves when a check fails
 
 **Tech:** PHP, WordPress, WooCommerce, MySQL, n8n, OAuth, JavaScript, Python, Bash, Playwright, GitHub Actions
 
@@ -271,14 +250,13 @@ Medical screening for travel insurance (client under NDA): customers declaring a
 
 ### travel-insurance-journey (Client Project · NDA)
 
-React rebuild of a travel insurance quote journey (client under NDA): trip type, destinations, travellers, eligibility, in-journey medical screening, declarations, and tiered quote results for annual, single-trip, and backpacker cover. Built from discovery through to parity with the live journey, verified against the real pricing backend.
+A React version of a travel insurance quote journey (client under NDA), built alongside the live site. It covers trip type, destinations, travellers, eligibility, medical screening, declarations and the tiered quote for annual, single-trip and backpacker cover.
 
 **Key Highlights:**
-- Built 7 screens on React 19 with the React Compiler, Redux Toolkit, and RTK Query, with a route guard that works out the furthest step a customer may reach and quotes cleared automatically whenever an answer that affects price changes
-- 1,101 unit tests at 97% statement coverage, including a 528-case matrix proving the app sends the same quote request as the existing workflow for every trip, destination, and party combination
-- 30 Playwright E2E tests plus a live suite against the real staging pricing API on desktop and mobile with zero console errors, and axe accessibility checks in both unit and E2E tests
-- Contract tests that fail when mock fixtures drift from the live gateway (proven by mutation testing) and a 13-step quality gate covering env parity, dead code, coverage, dependency audit, and secrets
-- Before writing code, documented the existing system in 16 discovery reports (SOAP rating contract, five WordPress plugins, workflow orchestration, the legacy Angular app) and ran design and flow parity audits against the design system and the live journey
+- Built on React 19 with Redux Toolkit and RTK Query. A route guard stops people skipping ahead, and the quote clears itself when an answer that changes the price is edited
+- Most of the tests compare it with the live site. A matrix checks that every trip, destination and party combination sends the same quote request the existing journey sends
+- The Playwright suite also runs against the real staging pricing API on desktop and mobile, with axe accessibility checks in unit and E2E tests
+- Before writing code I wrote down how the existing system worked, from the SOAP rating contract to the WordPress plugins and the old Angular app
 
 **Tech:** React, TypeScript, Redux Toolkit, RTK Query, React Router, React Hook Form, React Aria, Vite, SCSS, MSW, Vitest, Playwright, axe-core, Knip, pnpm
 
@@ -286,15 +264,14 @@ React rebuild of a travel insurance quote journey (client under NDA): trip type,
 
 ### car-service-booking (Client Project · NDA)
 
-Online car service booking journey (client under NDA): vehicle lookup, contact and address details, service selection with member pricing, drop-off date and time, and booking confirmation against a garage management system. Joined after go-live and handled the frontend through the post-launch programme.
+Online car service booking (client under NDA): look up the vehicle, add contact details, pick a service with member pricing, choose a drop-off slot and confirm with the garage system. I joined right after go-live and handled the frontend through the post-launch work.
 
 **Key Highlights:**
-- Over six weeks after go-live (19 PRs), rewrote the five step pages, folded the confirm screen into the date step, and removed 20 Storybook files, 11 unused components, and 8 runtime dependencies
-- Fixed booking correctness: drop-off times taken from the backend (hardcoded labels could book the wrong slot), member prices from the garage system instead of an in-browser discount, guarded booking completion, and 11 of 12 post-launch review defects
-- Grew unit tests from ~77 to ~350 and Playwright E2E from 11 to ~50 across three browser projects, with the coverage floor ratcheted up to 70% from a 19% start
-- Fixed a blank journey on iOS 14 by lowering the build target and adding a gate that parses every built chunk as ES2021, plus blank pages on refresh and deep links caused by navigation during render
-- Fixed analytics so member status and journey context reach every screen, stripped personal data from tracking, added journey logging to Azure Application Insights, and moved the CSP to Nginx so tag vendors were no longer blocked
-- Added a 13-gate quality pipeline and a scheduled GitHub Action that checks the live API against mock fixtures and opens an issue when it drifts
+- Rewrote the five booking steps and cleared out dead code, unused components and dependencies nothing used anymore
+- Fixed bugs that hit real bookings. Drop-off times now come from the backend instead of hardcoded labels that could book the wrong slot, and member prices come from the garage system
+- Fixed a blank screen on iOS 14 by changing the build target, and added a build check that fails if newer syntax slips back in
+- Sorted out the analytics so member status reaches every screen, took personal data out of tracking, and added journey logging to Azure Application Insights
+- Filled in the missing tests and added a scheduled GitHub Action that compares the live API with the mocks and opens an issue when they drift apart
 
 **Tech:** React, TypeScript, Vite, React Router, TanStack Query, Zustand, Zod, React Hook Form, Tailwind CSS, SCSS, MSW, Jest, Playwright, Knip, Azure Application Insights, Google Tag Manager, Docker, Nginx, GitHub Actions
 
@@ -302,15 +279,15 @@ Online car service booking journey (client under NDA): vehicle lookup, contact a
 
 ### insurance-test-automation-platform (Client Project · NDA)
 
-Test automation for a marine insurer (client under NDA) across three very different systems: a web claims app, a legacy desktop underwriting app with no DOM, and the data warehouse behind them. Three repos, about 17k lines of code, running unattended on self-hosted CI.
+Test automation for a marine insurer (client under NDA) across three very different systems: a web claims app, an old desktop underwriting app with no DOM, and the data warehouse behind them. All of it runs unattended on self-hosted CI.
 
 **Key Highlights:**
-- Automated a legacy desktop underwriting app streamed as a remote window with no accessible UI tree, using nut.js input, Tesseract OCR, and PowerShell window control, with display scaling worked out at runtime
-- A guarded input layer only sends a keystroke when the expected window and session are in front, so unattended runs on a shared VM can never type into another app
-- Underwriting runs that create an agreement and work through parties, clauses, certificates, premium, and documents, plus an OCR check on the generated cover note, invoice, and commission note, and a read-only crawler that maps all 139 menu items
-- Claims tests on the web app with multi-role fixtures: each role gets an isolated browser context and cached login, so one test can take a claim through finance and director sign-off without logging in again
-- Warehouse checks run on Playwright as a plain test runner over a hand-written Trino REST client: schema contracts, freshness, row counts, and primary and foreign key integrity across 30 gold tables
-- The warehouse suite queries live production tables, so a read-only SQL guard blocks writes and is tested against 19 write and bypass patterns. Excel evidence exports neutralise formula injection and pseudonymise personal data
+- The desktop app runs as a remote window with nothing to hook into, so I automated it through screenshots, Tesseract OCR and nut.js clicks. Keystrokes only go out when the right window is in front
+- Keep-alive and watcher tasks clear idle and upgrade pop-ups, so overnight runs finish on their own
+- Underwriting tests create an agreement and work through to premium and documents, then read the generated cover note and invoice back with OCR
+- Claims tests hand a claim between business roles, each with its own browser context and cached login
+- Warehouse checks run on Playwright over a small Trino REST client, behind a read-only SQL guard that blocks any write to production
+- Evidence exports to Excel are safe to open, with formulas neutralised and personal data pseudonymised
 
 **Tech:** Playwright, TypeScript, Node.js, nut.js, Tesseract OCR, PowerShell, Trino, GitHub Actions, Knip, ESLint
 
@@ -321,11 +298,10 @@ Test automation for a marine insurer (client under NDA) across three very differ
 Playwright framework for an SAP-based insurance policy system (client under NDA). The UI is built from nested frames and sits behind NTLM domain auth, so the framework wraps both in helpers to keep the specs readable.
 
 **Key Highlights:**
-- Custom frame helpers that reach elements through several levels of nested frames, with NTLM domain auth handled once in config
-- 79 specs covering policy servicing, beneficiary management, commission validation, and medical exclusion workflows
-- Page objects with worker-scoped fixtures and action helpers, with test data pulled live from the database so the same specs run on UAT and DEV
-- REST API tests across environments that check data contracts between SAP modules
-- A custom Xray reporter that pushes results into Jira, and a quality gate with strict TypeScript, ESLint, Prettier, Knip, and Husky hooks
+- Frame helpers that reach elements through several levels of nested frames, with NTLM domain auth set up once in config
+- Specs for policy servicing, beneficiary management, commission validation and medical exclusions
+- Page objects with worker-scoped fixtures, and test data pulled live from the database so the same specs run on UAT and DEV
+- API tests for the REST endpoints between SAP modules, and a custom Xray reporter that sends results to Jira
 
 **Tech:** Playwright, Selenium, TypeScript, MS SQL Server, PostgreSQL, Jira Xray, ESLint, Knip
 
@@ -433,7 +409,7 @@ A framework that generates UIs from database configs: you set up your tables and
 - Built a system that generates user interfaces straight from database structures, no need to hand-code forms and reports for every table
 - Wrote the data layer handling all CRUD operations with validation, business rules, and trigger execution built in
 - Built different form types for different workflows (adding records, viewing details, searching, signup) with conditional fields and auto-calculated values
-- Created a widget system for customizing navigation, login pages, branding, and layouts through config rather than code
+- Created a widget system for customizing navigation, login pages, branding, and layouts through config instead of code
 - Hooked up AWS S3 for file storage and added SSO and multi-factor auth
 - Built reports that display as tables, spreadsheets, or interactive calendars with inline editing
 
@@ -467,7 +443,7 @@ A dashboard that monitors Playwright test failures from GoCD pipelines, spots fl
 - Set up real-time sync with Server-Sent Events for pipeline status changes, plus automatic scheduling and polling for when pipelines finish
 - Built a parser that pulls test results, errors, stack traces, and artifacts (screenshots, videos, traces) out of GoCD console output
 - Built a test dashboard that organizes 400+ tests by pipeline, folder, and file with environment filters and flaky test badges
-- Cut debugging time significantly by automating the grunt work: collecting logs, spotting patterns across runs, and generating AI-ready prompts with all the context a developer needs
+- Took the grunt work out of debugging: it collects the logs, spots patterns across runs, and writes a prompt with the context a developer needs
 
 **Tech:** React, TypeScript, JavaScript, Fastify, Vite, Zustand, TanStack Query, Semantic UI, SCSS, Node.js, Google OAuth, JWT, SSE, Playwright, GoCD
 
@@ -475,14 +451,14 @@ A dashboard that monitors Playwright test failures from GoCD pipelines, spots fl
 
 ### cv-website
 
-The website you are looking at right now. A portfolio site that generates two different PDF versions of my CV - one that looks beautiful for sharing directly, and one optimized for recruitment software to parse correctly. Everything updates from one place.
+The site you are looking at. It builds two PDF versions of my CV from the same data: a designed one for sharing and an ATS-friendly one that recruitment software can read. Everything updates from one file.
 
 **Key Highlights:**
 - Created two downloadable CV formats: a polished version for networking and an ATS-friendly version that recruitment systems can actually read
-- Connected to GitHub API to show real contribution activity, project stats, and coding languages I actually use - updates automatically
+- Pulls contribution activity and project stats from the GitHub API, so the numbers update on their own
 - Built an interactive personality chart showing my work style assessment results, so employers can see how I fit into teams
-- Designed so editing my experience in one file instantly updates the website, both PDF versions, and keeps everything in sync
-- Generates two PDF variants from the same data source: a designed version for people and an ATS-optimized version for applicant tracking systems
+- Editing one data file updates the website, both PDFs and my GitHub profile README, and the deploy refuses to go out if the README falls behind
+- Products whose website goes down disappear from the CV on the next deploy, links and all, so there are no dead links
 
 **Tech:** React, TypeScript, JavaScript, Vite, SCSS, @react-pdf/renderer, GitHub Actions, Netlify
 
@@ -491,7 +467,7 @@ The website you are looking at right now. A portfolio site that generates two di
 ## What I'm Currently Working On
 
 - Working as **QA Automation Engineer (Consultant)** at Sedona Digital
-- Building and running my own products: **Invoicr**, **Mac Updater Pro**, **Fioka**, **Kurirko**, **Pamto**
+- Building and running my own products: **Invoicr**, **Fioka**, **Kurirko**, **Pamto**
 - Expanding test automation expertise with **ISTQB certifications**
 
 ---
