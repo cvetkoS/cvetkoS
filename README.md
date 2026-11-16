@@ -14,11 +14,10 @@
 
 ## About Me
 
-Software engineer with a full-stack background (React, Node.js, TypeScript) across web, mobile and native apps, and three years running QA as an engineering manager. At Legatics I built the QA function from scratch: wrote the test strategy, hired a distributed team, grew the Playwright suite to 400+ specs and cut the regression cycle in half. On the side I build and run my own products: Invoicr (AI invoicing), Fioka (family documents), and Kurirko (route planning for couriers). ISTQB certified.
+Software engineer with a full-stack background (React, Node.js, TypeScript) across web, mobile and native apps, and about three years running QA as an engineering manager. At Legatics I built the QA function from scratch: wrote the test strategy, hired a distributed team, grew the Playwright suite to 400+ specs and cut the regression cycle in half. On the side I build and run my own products: Invoicr (AI invoicing), Fioka (family documents), and Kurirko (route planning for couriers). ISTQB certified.
 
 ```yaml
 location: Belgrade, Serbia
-current_role: QA Automation Engineer (Consultant) @ Sedona Digital
 focus: ['QA Leadership', 'Test Automation', 'Full-Stack Development']
 certifications: ['ISTQB Foundation Level 4.0', 'ISTQB Test Automation Engineering']
 languages: ['English (Fluent - C1)', 'Serbian (Native)']
@@ -103,19 +102,19 @@ Test Strategy & Planning • Release Management • Agile/Scrum • Team Leaders
 
 ## Professional Experience
 
-### **QA Automation Engineer (Consultant)** @ [Sedona Digital](https://faptic.com) _(Feb 2026 - Present)_
+### **QA Automation Engineer (Consultant)** @ [Sedona Digital](https://faptic.com) _(September 2025 - May 2026)_
 
-- Building a Playwright and Selenium framework for an SAP-based insurance policy system. The main challenge is a nested frame layout that needs custom frame helpers, plus NTLM domain auth
-- Writing specs for policy servicing, beneficiary management, commission validation, and medical exclusion workflows, with page objects, worker-scoped fixtures, and test data pulled live from SQL Server and PostgreSQL across UAT and DEV
+- Built a Playwright and Selenium framework for an SAP-based insurance policy system. The main challenge was a nested frame layout that needed custom frame helpers, plus NTLM domain auth
+- Wrote specs for policy servicing, beneficiary management, commission validation, and medical exclusion workflows, with page objects, worker-scoped fixtures, and test data pulled live from SQL Server and PostgreSQL across UAT and DEV
 - Added REST API tests across environments, a custom Xray reporter so results land in Jira, and the code quality tooling: strict TypeScript, ESLint, Prettier, Knip, and Husky hooks
-- For a marine insurer, building test automation across three systems: a web claims app, a legacy desktop underwriting app, and the data warehouse behind them
-- The desktop app runs as a remote window with no DOM or accessibility tree, so it is automated through screenshots, Tesseract OCR, and nut.js clicks. Keystrokes only go out when the right window is in front, so unattended runs on a shared VM never type into anything else
+- For a marine insurer, built test automation across three systems: a web claims app, a legacy desktop underwriting app, and the data warehouse behind them
+- The desktop app runs as a remote window with no DOM or accessibility tree, so I automated it through screenshots, Tesseract OCR, and nut.js clicks. Keystrokes only go out when the right window is in front, so unattended runs on a shared VM never type into anything else
 - Kept overnight desktop runs alive with scheduled keep-alive and watcher tasks that clear idle and upgrade pop-ups, and wrote an OCR check that reads the generated cover note and invoice back to confirm the policy details
 - Wrote Playwright tests for the claims journey, from claim creation and reserves to payment and the finance and director sign-off, with each business role in its own browser context and cached login
 - Built a data warehouse quality suite on Playwright with a small Trino REST client, checking schema, freshness, and key integrity across the star schema. A read-only SQL guard makes sure the suite can never change production data
 - Set up GitHub Actions on self-hosted Azure VM runners: weekday-only scheduled runs (UAT is off at weekends), one run at a time per environment, Teams alerts, and a repeat-each option for chasing flaky tests
 
-### **QA Engineering Manager** @ [Legatics](https://www.legatics.com/) _(October 2022 - Jan 2026)_
+### **QA Engineering Manager** @ [Legatics](https://www.legatics.com/) _(October 2022 - September 2025)_
 
 - Built the QA function from zero: wrote the test strategy, defined quality gates for each pipeline stage, hired and scaled the team, and established the standards for how tests get written, reviewed, and maintained
 - Managed a distributed QA team. Ran 1:1s, wrote performance reviews, and mentored juniors through pair-programming on Playwright scripts until they could own test areas independently
@@ -466,7 +465,6 @@ The site you are looking at. It builds two PDF versions of my CV from the same d
 
 ## What I'm Currently Working On
 
-- Working as **QA Automation Engineer (Consultant)** at Sedona Digital
 - Building and running my own products: **Invoicr**, **Fioka**, **Kurirko**, **Pamto**
 - Expanding test automation expertise with **ISTQB certifications**
 
